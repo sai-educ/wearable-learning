@@ -5,13 +5,13 @@
 
 /* CSS Variables - Official Brand Colors */
 :root {
-    /* Primary Brand Colors - From Official Guidelines */
-    --color-primary: #005EA2;
-    /* Primary Blue */
-    --color-primary-dark: #004876;
-    /* Darker Blue */
-    --color-primary-light: #2E7AB5;
-    /* Lighter Blue */
+    /* Primary Brand Colors - Purple Theme */
+    --color-primary: #7C3AED;
+    /* Primary Purple */
+    --color-primary-dark: #6D28D9;
+    /* Darker Purple */
+    --color-primary-light: #8B5CF6;
+    /* Lighter Purple */
 
     --color-secondary: #E5700D;
     /* Orange/Amber */
@@ -368,12 +368,31 @@ em {
 
 .hero {
     position: relative;
-    min-height: 85vh;
+    min-height: 70vh;
+    /* Reduced from 85vh */
     display: flex;
     align-items: center;
     background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
     color: var(--color-white);
     overflow: hidden;
+    padding: var(--space-12) 0;
+    /* Added padding to ensure content fits */
+}
+
+/* ... (keep existing styles) ... */
+
+.hero-carousel-container {
+    position: relative;
+    width: 500px;
+    /* Increased from 400px */
+    height: 500px;
+    /* Increased from 400px */
+    transform: rotate(5deg);
+    border-radius: var(--radius-2xl);
+    border: 8px solid var(--color-white);
+    box-shadow: var(--shadow-2xl);
+    overflow: hidden;
+    background: var(--color-gray-200);
 }
 
 .hero::before {
@@ -427,6 +446,79 @@ em {
     display: flex;
     gap: var(--space-4);
     flex-wrap: wrap;
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-12);
+    align-items: center;
+}
+
+.hero-visual {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-carousel-container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    transform: rotate(5deg);
+    border-radius: var(--radius-2xl);
+    border: 8px solid var(--color-white);
+    box-shadow: var(--shadow-2xl);
+    overflow: hidden;
+    background: var(--color-gray-200);
+}
+
+.hero-carousel {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-carousel img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.hero-carousel img.active {
+    opacity: 1;
+}
+
+@media (max-width: 960px) {
+    .hero-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: var(--space-8);
+    }
+
+    .hero-content {
+        margin: 0 auto;
+    }
+
+    .hero p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .hero-visual {
+        display: none;
+        /* Hide on mobile for better layout, or adjust size */
+    }
 }
 
 /* ==========================================
@@ -518,6 +610,19 @@ em {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.team-member-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto var(--space-4);
+    border: 4px solid var(--color-white);
+    box-shadow: var(--shadow-md);
+}
+
+.section-title {
     font-size: var(--text-2xl);
     margin-bottom: var(--space-4);
 }

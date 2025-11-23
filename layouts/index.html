@@ -2,27 +2,62 @@
 <!-- Hero Section -->
 <section id="container04" class="hero">
 	<div class="container">
-		<div class="hero-content fade-in-up">
-			<div class="hero-badge">
-				<span>✨</span>
-				<span>100% FREE TO USE & BACKED BY RESEARCH</span>
+		<div class="hero-grid">
+			<div class="hero-content fade-in-up">
+				<div class="hero-badge">
+					<span>✨</span>
+					<span>100% FREE TO USE & BACKED BY RESEARCH</span>
+				</div>
+				<h1>Wearable Learning</h1>
+				<p>Learn programming and computational thinking skills by designing mobile math games. Research-based
+					education technology for engaging students in math learning through game design and physical
+					gameplay.
+				</p>
+				<div class="hero-buttons">
+					<a href="https://prod.wearablelearning.org/wlcp-ui/index.html" class="btn btn-primary"
+						target="_blank">
+						<span>Get Started Free</span>
+						<span>→</span>
+					</a>
+					<a href="#about" class="btn btn-outline">
+						<span>Learn More</span>
+					</a>
+				</div>
 			</div>
-			<h1>Wearable Learning</h1>
-			<p>Learn programming and computational thinking skills by designing mobile math games. Research-based
-				education technology for engaging students in math learning through game design and physical gameplay.
-			</p>
-			<div class="hero-buttons">
-				<a href="https://prod.wearablelearning.org/wlcp-ui/index.html" class="btn btn-primary" target="_blank">
-					<span>Get Started Free</span>
-					<span>→</span>
-				</a>
-				<a href="#about" class="btn btn-outline">
-					<span>Learn More</span>
-				</a>
+			<div class="hero-visual fade-in-up" style="animation-delay: 0.2s;">
+				<div class="hero-carousel-container">
+					<div class="hero-carousel" id="heroCarousel">
+						<img src="/assets/images/container04-45e914fc.jpg" alt="Wearable Learning Activity"
+							class="active">
+						<img src="/assets/images/container04-46c5d657.jpg" alt="Wearable Learning Activity">
+						<img src="/assets/images/container04-70d251b3.jpg" alt="Wearable Learning Activity">
+						<img src="/assets/images/container04-c2da91c7.jpg" alt="Wearable Learning Activity">
+						<img src="/assets/images/container04-ca3e2fb0.jpg" alt="Wearable Learning Activity">
+						<img src="/assets/images/container04-d1abd360.jpg" alt="Wearable Learning Activity">
+						<img src="/assets/images/container04-e85151a7.jpg" alt="Wearable Learning Activity">
+						<img src="/assets/images/container04-efc2d52d.jpg" alt="Wearable Learning Activity">
+						<img src="/assets/images/tibet-study-1.jpg" alt="Wearable Learning in Tibet">
+						<img src="/assets/images/tibet-study-2.jpg" alt="Wearable Learning in Tibet">
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 </section>
+
+<script>
+	document.addEventListener('DOMContentLoaded', function () {
+		const carousel = document.getElementById('heroCarousel');
+		const images = carousel.getElementsByTagName('img');
+		let currentIndex = 0;
+
+		setInterval(() => {
+			images[currentIndex].classList.remove('active');
+			currentIndex = (currentIndex + 1) % images.length;
+			images[currentIndex].classList.add('active');
+		}, 5000);
+	});
+</script>
 
 <!-- Features Section -->
 <section class="section section-light">
