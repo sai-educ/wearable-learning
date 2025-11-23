@@ -1,3 +1,792 @@
+		<!DOCTYPE html>
+		<html>
+		<head>
+	<meta name="generator" content="Hugo 0.152.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=54025&amp;path=livereload" data-no-instant defer></script>
+		<title>Page Title</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		</head>
+		<body>
+		
+		
+		<script>
+		window.onload = function() {
+		$( ".answer" ).hide();
+		
+		$( ".question" ).on( "click", function() {
+		var symbol = $(this).find('.symbol');
+		$(this).toggleClass('active');
+		$( this ).nextAll('.answer:first').slideToggle();
+		
+		if (symbol.text() == "+") {
+		symbol.text("-")
+		} else {
+		symbol.text("+");
+		}
+		});
+		}
+		</script>
+		
+		<style>
+		.answer mark {
+		padding: 0.25rem;
+		border-radius: 0.25rem;
+		}
+		
+		.question.active .wrapper {
+		border-radius: 0.5rem 0.5rem 0 0 !important;
+		}
+		</style>
+			<html>
+		
+		<head>
+		<style>
+		div.fixed {
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+		z-index: 99;
+		border: none;
+		outline: none;
+		background-color: #000000;
+		cursor: pointer;
+		padding: 15px 15px;
+		border-radius: 50%;
+		font-size: 1rem;
+		scroll-behavior: smooth;
+		transition: all 1s;
+		
+		}
+		
+		.svgtop {
+		fill: #FFFFFF;
+		}
+		
+		.hide {
+		opacity: 0;
+		right: -100%
+		}
+		
+		.show {
+		opacity: 1;
+		right: 0;
+		}
+		</style>
+		</head>
+		
+		<body>
+		
+		<div onclick="topFunction()" id="backtotop" class="fixed hide">
+		<svg class="svgtop" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+		<path fill="none" d="M0 0h24v24H0V0z" />
+		<path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z" />
+		</svg>
+		</div>
+		
+		<script>
+		backtotop = document.getElementById("backtotop");
+		
+		var ScrollFunc = function () {
+		var y = window.scrollY;
+		if (y >= 400) {
+		backtotop.className = "fixed show"
+		} else {
+		backtotop.className = "fixed hide"
+		}
+		};
+		
+		window.addEventListener("scroll", ScrollFunc);
+		
+		function topFunction() {
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
+		}
+		</script>
+		</body>
+		
+		</html>
+		<html>
+		
+		<head>
+		<style>
+		div.fixed {
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+		z-index: 99;
+		border: none;
+		outline: none;
+		background-color: #000000;
+		cursor: pointer;
+		padding: 15px 15px;
+		border-radius: 50%;
+		font-size: 1rem;
+		scroll-behavior: smooth;
+		transition: all 1s;
+		
+		}
+		
+		.svgtop {
+		fill: #FFFFFF;
+		}
+		
+		.hide {
+		opacity: 0;
+		right: -100%
+		}
+		
+		.show {
+		opacity: 1;
+		right: 0;
+		}
+		</style>
+		</head>
+		
+		<body>
+		
+		<div onclick="topFunction()" id="backtotop" class="fixed hide">
+		<svg class="svgtop" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+		<path fill="none" d="M0 0h24v24H0V0z" />
+		<path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z" />
+		</svg>
+		</div>
+		
+		<script>
+		backtotop = document.getElementById("backtotop");
+		
+		var ScrollFunc = function () {
+		var y = window.scrollY;
+		if (y >= 400) {
+		backtotop.className = "fixed show"
+		} else {
+		backtotop.className = "fixed hide"
+		}
+		};
+		
+		window.addEventListener("scroll", ScrollFunc);
+		
+		function topFunction() {
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
+		}
+		</script>
+		</body>
+		
+		</html>
+		<html>
+		
+		<head>
+		<style>
+		div.fixed {
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+		z-index: 99;
+		border: none;
+		outline: none;
+		background-color: #000000;
+		cursor: pointer;
+		padding: 15px 15px;
+		border-radius: 50%;
+		font-size: 1rem;
+		scroll-behavior: smooth;
+		transition: all 1s;
+		
+		}
+		
+		.svgtop {
+		fill: #FFFFFF;
+		}
+		
+		.hide {
+		opacity: 0;
+		right: -100%
+		}
+		
+		.show {
+		opacity: 1;
+		right: 0;
+		}
+		</style>
+		</head>
+		
+		<body>
+		
+		<div onclick="topFunction()" id="backtotop" class="fixed hide">
+		<svg class="svgtop" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+		<path fill="none" d="M0 0h24v24H0V0z" />
+		<path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z" />
+		</svg>
+		</div>
+		
+		<script>
+		backtotop = document.getElementById("backtotop");
+		
+		var ScrollFunc = function () {
+		var y = window.scrollY;
+		if (y >= 400) {
+		backtotop.className = "fixed show"
+		} else {
+		backtotop.className = "fixed hide"
+		}
+		};
+		
+		window.addEventListener("scroll", ScrollFunc);
+		
+		function topFunction() {
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
+		}
+		</script>
+		</body>
+		
+		</html>
+		<html>
+		
+		<head>
+		<style>
+		div.fixed {
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+		z-index: 99;
+		border: none;
+		outline: none;
+		background-color: #000000;
+		cursor: pointer;
+		padding: 15px 15px;
+		border-radius: 50%;
+		font-size: 1rem;
+		scroll-behavior: smooth;
+		transition: all 1s;
+		
+		}
+		
+		.svgtop {
+		fill: #FFFFFF;
+		}
+		
+		.hide {
+		opacity: 0;
+		right: -100%
+		}
+		
+		.show {
+		opacity: 1;
+		right: 0;
+		}
+		</style>
+		</head>
+		
+		<body>
+		
+		<div onclick="topFunction()" id="backtotop" class="fixed hide">
+		<svg class="svgtop" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+		<path fill="none" d="M0 0h24v24H0V0z" />
+		<path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z" />
+		</svg>
+		</div>
+		
+		<script>
+		backtotop = document.getElementById("backtotop");
+		
+		var ScrollFunc = function () {
+		var y = window.scrollY;
+		if (y >= 400) {
+		backtotop.className = "fixed show"
+		} else {
+		backtotop.className = "fixed hide"
+		}
+		};
+		
+		window.addEventListener("scroll", ScrollFunc);
+		
+		function topFunction() {
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
+		}
+		</script>
+		</body>
+		
+		</html>
+		<html>
+		
+		<head>
+		<style>
+		div.fixed {
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+		z-index: 99;
+		border: none;
+		outline: none;
+		background-color: #000000;
+		cursor: pointer;
+		padding: 15px 15px;
+		border-radius: 50%;
+		font-size: 1rem;
+		scroll-behavior: smooth;
+		transition: all 1s;
+		
+		}
+		
+		.svgtop {
+		fill: #FFFFFF;
+		}
+		
+		.hide {
+		opacity: 0;
+		right: -100%
+		}
+		
+		.show {
+		opacity: 1;
+		right: 0;
+		}
+		</style>
+		</head>
+		
+		<body>
+		
+		<div onclick="topFunction()" id="backtotop" class="fixed hide">
+		<svg class="svgtop" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+		<path fill="none" d="M0 0h24v24H0V0z" />
+		<path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z" />
+		</svg>
+		</div>
+		
+		<script>
+		backtotop = document.getElementById("backtotop");
+		
+		var ScrollFunc = function () {
+		var y = window.scrollY;
+		if (y >= 400) {
+		backtotop.className = "fixed show"
+		} else {
+		backtotop.className = "fixed hide"
+		}
+		};
+		
+		window.addEventListener("scroll", ScrollFunc);
+		
+		function topFunction() {
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
+		}
+		</script>
+		</body>
+		
+		</html>
+		<html>
+		
+		<head>
+		<style>
+		div.fixed {
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+		z-index: 99;
+		border: none;
+		outline: none;
+		background-color: #000000;
+		cursor: pointer;
+		padding: 15px 15px;
+		border-radius: 50%;
+		font-size: 1rem;
+		scroll-behavior: smooth;
+		transition: all 1s;
+		
+		}
+		
+		.svgtop {
+		fill: #FFFFFF;
+		}
+		
+		.hide {
+		opacity: 0;
+		right: -100%
+		}
+		
+		.show {
+		opacity: 1;
+		right: 0;
+		}
+		</style>
+		</head>
+		
+		<body>
+		
+		<div onclick="topFunction()" id="backtotop" class="fixed hide">
+		<svg class="svgtop" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+		<path fill="none" d="M0 0h24v24H0V0z" />
+		<path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z" />
+		</svg>
+		</div>
+		
+		<script>
+		backtotop = document.getElementById("backtotop");
+		
+		var ScrollFunc = function () {
+		var y = window.scrollY;
+		if (y >= 400) {
+		backtotop.className = "fixed show"
+		} else {
+		backtotop.className = "fixed hide"
+		}
+		};
+		
+		window.addEventListener("scroll", ScrollFunc);
+		
+		function topFunction() {
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
+		}
+		</script>
+		</body>
+		
+		</html>
+		<html>
+		
+		<head>
+		<style>
+		div.fixed {
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+		z-index: 99;
+		border: none;
+		outline: none;
+		background-color: #000000;
+		cursor: pointer;
+		padding: 15px 15px;
+		border-radius: 50%;
+		font-size: 1rem;
+		scroll-behavior: smooth;
+		transition: all 1s;
+		
+		}
+		
+		.svgtop {
+		fill: #FFFFFF;
+		}
+		
+		.hide {
+		opacity: 0;
+		right: -100%
+		}
+		
+		.show {
+		opacity: 1;
+		right: 0;
+		}
+		</style>
+		</head>
+		
+		<body>
+		
+		<div onclick="topFunction()" id="backtotop" class="fixed hide">
+		<svg class="svgtop" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+		<path fill="none" d="M0 0h24v24H0V0z" />
+		<path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z" />
+		</svg>
+		</div>
+		
+		<script>
+		backtotop = document.getElementById("backtotop");
+		
+		var ScrollFunc = function () {
+		var y = window.scrollY;
+		if (y >= 400) {
+		backtotop.className = "fixed show"
+		} else {
+		backtotop.className = "fixed hide"
+		}
+		};
+		
+		window.addEventListener("scroll", ScrollFunc);
+		
+		function topFunction() {
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
+		}
+		</script>
+		</body>
+		
+		</html>
+		<html>
+		
+		<head>
+		<style>
+		div.fixed {
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+		z-index: 99;
+		border: none;
+		outline: none;
+		background-color: #000000;
+		cursor: pointer;
+		padding: 15px 15px;
+		border-radius: 50%;
+		font-size: 1rem;
+		scroll-behavior: smooth;
+		transition: all 1s;
+		
+		}
+		
+		.svgtop {
+		fill: #FFFFFF;
+		}
+		
+		.hide {
+		opacity: 0;
+		right: -100%
+		}
+		
+		.show {
+		opacity: 1;
+		right: 0;
+		}
+		</style>
+		</head>
+		
+		<body>
+		
+		<div onclick="topFunction()" id="backtotop" class="fixed hide">
+		<svg class="svgtop" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+		<path fill="none" d="M0 0h24v24H0V0z" />
+		<path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z" />
+		</svg>
+		</div>
+		
+		<script>
+		backtotop = document.getElementById("backtotop");
+		
+		var ScrollFunc = function () {
+		var y = window.scrollY;
+		if (y >= 400) {
+		backtotop.className = "fixed show"
+		} else {
+		backtotop.className = "fixed hide"
+		}
+		};
+		
+		window.addEventListener("scroll", ScrollFunc);
+		
+		function topFunction() {
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
+		}
+		</script>
+		</body>
+		
+		</html>
+		<html>
+		
+		<head>
+		<style>
+		div.fixed {
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+		z-index: 99;
+		border: none;
+		outline: none;
+		background-color: #000000;
+		cursor: pointer;
+		padding: 15px 15px;
+		border-radius: 50%;
+		font-size: 1rem;
+		scroll-behavior: smooth;
+		transition: all 1s;
+		
+		}
+		
+		.svgtop {
+		fill: #FFFFFF;
+		}
+		
+		.hide {
+		opacity: 0;
+		right: -100%
+		}
+		
+		.show {
+		opacity: 1;
+		right: 0;
+		}
+		</style>
+		</head>
+		
+		<body>
+		
+		<div onclick="topFunction()" id="backtotop" class="fixed hide">
+		<svg class="svgtop" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+		<path fill="none" d="M0 0h24v24H0V0z" />
+		<path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z" />
+		</svg>
+		</div>
+		
+		<script>
+		backtotop = document.getElementById("backtotop");
+		
+		var ScrollFunc = function () {
+		var y = window.scrollY;
+		if (y >= 400) {
+		backtotop.className = "fixed show"
+		} else {
+		backtotop.className = "fixed hide"
+		}
+		};
+		
+		window.addEventListener("scroll", ScrollFunc);
+		
+		function topFunction() {
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
+		}
+		</script>
+		</body>
+		
+		</html>
+		<html>
+		
+		<head>
+		<style>
+		div.fixed {
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+		z-index: 99;
+		border: none;
+		outline: none;
+		background-color: #000000;
+		cursor: pointer;
+		padding: 15px 15px;
+		border-radius: 50%;
+		font-size: 1rem;
+		scroll-behavior: smooth;
+		transition: all 1s;
+		
+		}
+		
+		.svgtop {
+		fill: #FFFFFF;
+		}
+		
+		.hide {
+		opacity: 0;
+		right: -100%
+		}
+		
+		.show {
+		opacity: 1;
+		right: 0;
+		}
+		</style>
+		</head>
+		
+		<body>
+		
+		<div onclick="topFunction()" id="backtotop" class="fixed hide">
+		<svg class="svgtop" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+		<path fill="none" d="M0 0h24v24H0V0z" />
+		<path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z" />
+		</svg>
+		</div>
+		
+		<script>
+		backtotop = document.getElementById("backtotop");
+		
+		var ScrollFunc = function () {
+		var y = window.scrollY;
+		if (y >= 400) {
+		backtotop.className = "fixed show"
+		} else {
+		backtotop.className = "fixed hide"
+		}
+		};
+		
+		window.addEventListener("scroll", ScrollFunc);
+		
+		function topFunction() {
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
+		}
+		</script>
+		</body>
+		
+		</html>
+		<html>
+		
+		<head>
+		<style>
+		div.fixed {
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+		z-index: 99;
+		border: none;
+		outline: none;
+		background-color: #000000;
+		cursor: pointer;
+		padding: 15px 15px;
+		border-radius: 50%;
+		font-size: 1rem;
+		scroll-behavior: smooth;
+		transition: all 1s;
+		
+		}
+		
+		.svgtop {
+		fill: #FFFFFF;
+		}
+		
+		.hide {
+		opacity: 0;
+		right: -100%
+		}
+		
+		.show {
+		opacity: 1;
+		right: 0;
+		}
+		</style>
+		</head>
+		
+		<body>
+		
+		<div onclick="topFunction()" id="backtotop" class="fixed hide">
+		<svg class="svgtop" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+		<path fill="none" d="M0 0h24v24H0V0z" />
+		<path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z" />
+		</svg>
+		</div>
+		
+		<script>
+		backtotop = document.getElementById("backtotop");
+		
+		var ScrollFunc = function () {
+		var y = window.scrollY;
+		if (y >= 400) {
+		backtotop.className = "fixed show"
+		} else {
+		backtotop.className = "fixed hide"
+		}
+		};
+		
+		window.addEventListener("scroll", ScrollFunc);
+		
+		function topFunction() {
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
+		}
+		</script>
+		</body>
+		
+		</html>
+	</body>
+		</html>
+	</head>
 	<body>
 		<div class="site-wrapper">
 			<div class="site-main">
@@ -8,12 +797,12 @@
 								<div class="inner" data-reorder="2,0,1" data-reorder-breakpoint="medium">
 									<div>
 										<div id="image30" class="image-component instance-30" data-visibility="desktop">
-											<a href="#home" class="frame"><img src="assets/images/image30.png" alt="Wearable Learning Cloud Platform logo" /></a>
+											<a href="#home" class="frame"><img src="/assets/images/image30.png" alt="Wearable Learning Cloud Platform logo" /></a>
 										</div>
 									</div>
 									<div>
 										<div id="embed16" class="embed-component instance-16">
-											<!-- qweoqwupeoiqwuewqe --><meta name="viewport" content="width=device-width, initial-scale=1">
+											<meta name="viewport" content="width=device-width, initial-scale=1">
 											<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 											<style>
 											@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
@@ -146,7 +935,7 @@
 											</style>
 											<div id="navMenu" class="navbar">
 											
-											<!-- WL Games first -->
+											
 											<div class="submenu">
 											<button class="caretbutton">WL Games
 											<i class="fa fa-caret-down"></i>
@@ -158,7 +947,7 @@
 											</div>
 											</div>
 											
-											<!-- Tutorials second -->
+											
 											<div class="submenu">
 											<button class="caretbutton">Tutorials
 											<i class="fa fa-caret-down"></i>
@@ -172,7 +961,7 @@
 											</div>
 											</div>
 											
-											<!-- Next: Research, Teachers, News, About, Donate, Contact -->
+											
 											<a href="/#research" onclick="respNavMenu()">Research</a>
 											<a href="/#teachers" onclick="respNavMenu()">Teachers</a>
 											<a href="/#news" onclick="respNavMenu()">News</a>
@@ -180,7 +969,7 @@
 											<a href="/#donate" onclick="respNavMenu()">Donate</a>
 											<a href="/#contact" onclick="respNavMenu()">Contact</a>
 											
-											<!-- Hamburger menu -->
+											
 											<a href="javascript:void(0);" onclick="respNavMenu()" class="hamburger"><i class="fa fa-bars"></i></a>
 											</div>
 											<script>
@@ -192,13 +981,13 @@
 											x.className = "navbar";
 											}
 											}
-											</script><!-- mnbnbxmbzxmncbzxc -->
+											</script>
 										</div>
 									</div>
 									<div>
 										<ul id="buttons12" class="buttons-component instance-12">
 											<li>
-												<a href="https://prod.wearablelearning.org/wlcp-ui/index.html" target="_blank" class="n01" role="button"><svg aria-labelledby="buttons12-icon-1-title"><title id="buttons12-icon-1-title">User (Alt)</title><use xlink:href="assets/icons.svg#user-alt"></use></svg><span class="label">Login/Register</span></a>
+												<a href="https://prod.wearablelearning.org/wlcp-ui/index.html" target="_blank" class="n01" role="button"><svg aria-labelledby="buttons12-icon-1-title"><title id="buttons12-icon-1-title">User (Alt)</title><use xlink:href="/assets/icons.svg#user-alt"></use></svg><span class="label">Login/Register</span></a>
 											</li>
 										</ul>
 									</div>
@@ -262,7 +1051,7 @@
 									<p id="text107" class="text-component instance-107">Wearable Learning was developed with learning science principles at its core, and we’re obsessed with increasing student learning with methods proven to work.</p>
 									<ul id="buttons01" class="buttons-component instance-1">
 										<li>
-											<a href="#research" class="n01" role="button"><svg aria-labelledby="buttons01-icon-1-title"><title id="buttons01-icon-1-title">Arrow Right</title><use xlink:href="assets/icons.svg#arrow-right"></use></svg><span class="label">See our research</span></a>
+											<a href="#research" class="n01" role="button"><svg aria-labelledby="buttons01-icon-1-title"><title id="buttons01-icon-1-title">Arrow Right</title><use xlink:href="/assets/icons.svg#arrow-right"></use></svg><span class="label">See our research</span></a>
 										</li>
 									</ul>
 								</div>
@@ -273,7 +1062,7 @@
 								<div class="inner" data-onvisible-trigger="1">
 									<div>
 										<div id="image06" class="image-component instance-6">
-											<span class="frame"><img src="assets/images/image06.jpg" alt="student on laptop using Wearable Learning" oncontextmenu="return false;" ondragstart="return false;" /></span>
+											<span class="frame"><img src="/assets/images/image06.jpg" alt="student on laptop using Wearable Learning" oncontextmenu="return false;" ondragstart="return false;" /></span>
 										</div>
 										<p id="text210" class="text-component instance-210 style-7">Open Education Resource</p>
 										<h2 id="text217" class="text-component instance-217 style-9">Made for everyone.</h2>
@@ -281,7 +1070,7 @@
 									</div>
 									<div>
 										<div id="image29" class="image-component instance-29">
-											<span class="frame"><img src="assets/images/image29.jpg" alt="girl playing a WLCP game on her phone" oncontextmenu="return false;" ondragstart="return false;" /></span>
+											<span class="frame"><img src="/assets/images/image29.jpg" alt="girl playing a WLCP game on her phone" oncontextmenu="return false;" ondragstart="return false;" /></span>
 										</div>
 										<h2 id="text230" class="text-component instance-230 style-7">Interactive</h2>
 										<h2 id="text231" class="text-component instance-231 style-9">We made learning fun.</h2>
@@ -295,7 +1084,7 @@
 								<div class="inner" data-onvisible-trigger="1">
 									<div>
 										<div id="image26" class="image-component instance-26">
-											<span class="frame"><img src="assets/images/image26.jpg" alt="students playing Wearable Learning games" oncontextmenu="return false;" ondragstart="return false;" /></span>
+											<span class="frame"><img src="/assets/images/image26.jpg" alt="students playing Wearable Learning games" oncontextmenu="return false;" ondragstart="return false;" /></span>
 										</div>
 										<h2 id="text372" class="text-component instance-372 style-7">Active Learning</h2>
 										<h2 id="text396" class="text-component instance-396 style-9">Always. Period.</h2>
@@ -303,7 +1092,7 @@
 									</div>
 									<div>
 										<div id="image27" class="image-component instance-27">
-											<span class="frame"><img src="assets/images/image27.jpg" alt="students collaborating using WLCP" oncontextmenu="return false;" ondragstart="return false;" /></span>
+											<span class="frame"><img src="/assets/images/image27.jpg" alt="students collaborating using WLCP" oncontextmenu="return false;" ondragstart="return false;" /></span>
 										</div>
 										<h2 id="text398" class="text-component instance-398 style-7">Collaborative</h2>
 										<h2 id="text399" class="text-component instance-399 style-9">The more the merrier.</h2>
@@ -322,7 +1111,7 @@
 									</div>
 									<div>
 										<div id="image12" class="image-component instance-12">
-											<span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxMDkyIDY2OCIgd2lkdGg9IjEwOTIiIGhlaWdodD0iNjY4IiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjZTdlYWU4IiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="assets/images/image12.gif" alt="" title="The Wearable Learning Game Editor" /></span>
+											<span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxMDkyIDY2OCIgd2lkdGg9IjEwOTIiIGhlaWdodD0iNjY4IiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjZTdlYWU4IiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="/assets/images/image12.gif" alt="" title="The Wearable Learning Game Editor" /></span>
 										</div>
 										<p id="text70" class="text-component instance-70">The Wearable Learning (WL) Game Editor interface with the Finite State Automata</p>
 									</div>
@@ -334,7 +1123,7 @@
 								<div class="inner" data-onvisible-trigger="1">
 									<div>
 										<div id="image15" class="image-component instance-15">
-											<span class="frame"><img src="assets/images/image15.jpg" alt="girl playing a WLCP game on her phone" oncontextmenu="return false;" ondragstart="return false;" /></span>
+											<span class="frame"><img src="/assets/images/image15.jpg" alt="girl playing a WLCP game on her phone" oncontextmenu="return false;" ondragstart="return false;" /></span>
 										</div>
 									</div>
 									<div>
@@ -374,12 +1163,12 @@
 								<div class="inner" data-onvisible-trigger="1">
 									<div>
 										<div id="image54" class="image-component instance-54">
-											<span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAyNTYwIDE3MDMiIHdpZHRoPSIyNTYwIiBoZWlnaHQ9IjE3MDMiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiM0ZjQ2M2YiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="assets/images/image54.jpg" alt="Ivon Arroyo" /></span>
+											<span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAyNTYwIDE3MDMiIHdpZHRoPSIyNTYwIiBoZWlnaHQ9IjE3MDMiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiM0ZjQ2M2YiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="/assets/images/image54.jpg" alt="Ivon Arroyo" /></span>
 										</div>
 									</div>
 									<div>
 										<div id="image02" class="image-component instance-2">
-											<span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxMjgwIDg1MiIgd2lkdGg9IjEyODAiIGhlaWdodD0iODUyIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjMzgyYTI4IiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="assets/images/image02.jpg" alt="Wearable Learning team" /></span>
+											<span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxMjgwIDg1MiIgd2lkdGg9IjEyODAiIGhlaWdodD0iODUyIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjMzgyYTI4IiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="/assets/images/image02.jpg" alt="Wearable Learning team" /></span>
 										</div>
 										<p id="text68" class="text-component instance-68">Image credits: <a href="https://www.linkedin.com/in/wesdeshano" target="_blank">Wes DeShano</a></p>
 									</div>
@@ -399,24 +1188,24 @@
 								<div class="inner" data-onvisible-trigger="1">
 									<div>
 										<div id="image14" class="image-component instance-14" data-position="center">
-											<span class="frame"><img src="assets/images/image14.jpg" alt="Ivon Arroyo" oncontextmenu="return false;" ondragstart="return false;" /></span>
+											<span class="frame"><img src="/assets/images/image14.jpg" alt="Ivon Arroyo" oncontextmenu="return false;" ondragstart="return false;" /></span>
 										</div>
 										<p id="text67" class="text-component instance-67 style-19">Dr. Ivon Arroyo</p>
 										<p id="text130" class="text-component instance-130 style-17"><span class="p">Professor of Learning Technology<br />UMass Amherst</span></p>
 										<ul id="icons02" class="icons-component instance-2 style-1">
 											<li>
 												<a class="n01" href="mailto:ivon@cs.umass.edu" role="button">
-													<svg aria-labelledby="icons02-icon-1-title"><title id="icons02-icon-1-title">Email</title><use xlink:href="assets/icons.svg#email"></use></svg>
+													<svg aria-labelledby="icons02-icon-1-title"><title id="icons02-icon-1-title">Email</title><use xlink:href="/assets/icons.svg#email"></use></svg>
 													<span class="label">Email</span>
 												</a>
 											</li><li>
 												<a class="n02" href="https://www.linkedin.com/in/ivon-arroyo-5231474/" target="_blank" role="button">
-													<svg aria-labelledby="icons02-icon-2-title"><title id="icons02-icon-2-title">LinkedIn</title><use xlink:href="assets/icons.svg#linkedin"></use></svg>
+													<svg aria-labelledby="icons02-icon-2-title"><title id="icons02-icon-2-title">LinkedIn</title><use xlink:href="/assets/icons.svg#linkedin"></use></svg>
 													<span class="label">LinkedIn</span>
 												</a>
 											</li><li>
 												<a class="n03" href="https://scholar.google.com/citations?hl=en&user=pmXR-GRA0BQC&view_op=list_works&sortby=pubdate" target="_blank" role="button">
-													<svg aria-labelledby="icons02-icon-3-title"><title id="icons02-icon-3-title">Google Scholar</title><use xlink:href="assets/icons.svg#google-scholar"></use></svg>
+													<svg aria-labelledby="icons02-icon-3-title"><title id="icons02-icon-3-title">Google Scholar</title><use xlink:href="/assets/icons.svg#google-scholar"></use></svg>
 													<span class="label">Google Scholar</span>
 												</a>
 											</li>
@@ -424,29 +1213,29 @@
 									</div>
 									<div>
 										<div id="image18" class="image-component instance-18" data-position="center">
-											<span class="frame"><img src="assets/images/image18.jpg" alt="" oncontextmenu="return false;" ondragstart="return false;" /></span>
+											<span class="frame"><img src="/assets/images/image18.jpg" alt="" oncontextmenu="return false;" ondragstart="return false;" /></span>
 										</div>
 										<p id="text167" class="text-component instance-167 style-19">Dr. Erin Ottmar</p>
 										<p id="text226" class="text-component instance-226 style-17"><span class="p">Associate Professor<br />Worcester Polytechnic Institute</span></p>
 										<ul id="icons04" class="icons-component instance-4 style-1">
 											<li>
 												<a class="n01" href="mailto:erottmar@wpi.edu" role="button">
-													<svg aria-labelledby="icons04-icon-1-title"><title id="icons04-icon-1-title">Email</title><use xlink:href="assets/icons.svg#email"></use></svg>
+													<svg aria-labelledby="icons04-icon-1-title"><title id="icons04-icon-1-title">Email</title><use xlink:href="/assets/icons.svg#email"></use></svg>
 													<span class="label">Email</span>
 												</a>
 											</li><li>
 												<a class="n02" href="https://www.linkedin.com/in/erin-ottmar-40963639/" target="_blank" role="button">
-													<svg aria-labelledby="icons04-icon-2-title"><title id="icons04-icon-2-title">LinkedIn</title><use xlink:href="assets/icons.svg#linkedin"></use></svg>
+													<svg aria-labelledby="icons04-icon-2-title"><title id="icons04-icon-2-title">LinkedIn</title><use xlink:href="/assets/icons.svg#linkedin"></use></svg>
 													<span class="label">LinkedIn</span>
 												</a>
 											</li><li>
 												<a class="n03" href="https://twitter.com/erin_ottmar" target="_blank" role="button">
-													<svg aria-labelledby="icons04-icon-3-title"><title id="icons04-icon-3-title">Twitter</title><use xlink:href="assets/icons.svg#twitter"></use></svg>
+													<svg aria-labelledby="icons04-icon-3-title"><title id="icons04-icon-3-title">Twitter</title><use xlink:href="/assets/icons.svg#twitter"></use></svg>
 													<span class="label">Twitter</span>
 												</a>
 											</li><li>
 												<a class="n04" href="https://scholar.google.com/citations?hl=en&user=TxUW3KwAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" role="button">
-													<svg aria-labelledby="icons04-icon-4-title"><title id="icons04-icon-4-title">Google Scholar</title><use xlink:href="assets/icons.svg#google-scholar"></use></svg>
+													<svg aria-labelledby="icons04-icon-4-title"><title id="icons04-icon-4-title">Google Scholar</title><use xlink:href="/assets/icons.svg#google-scholar"></use></svg>
 													<span class="label">Google Scholar</span>
 												</a>
 											</li>
@@ -454,24 +1243,24 @@
 									</div>
 									<div>
 										<div id="image19" class="image-component instance-19" data-position="center">
-											<span class="frame"><img src="assets/images/image19.jpg" alt="" oncontextmenu="return false;" ondragstart="return false;" /></span>
+											<span class="frame"><img src="/assets/images/image19.jpg" alt="" oncontextmenu="return false;" ondragstart="return false;" /></span>
 										</div>
 										<p id="text06" class="text-component instance-6 style-19">Dr. Gillian Smith</p>
 										<p id="text379" class="text-component instance-379 style-17"><span class="p">Associate Professor<br />Worcester Polytechnic Institute</span></p>
 										<ul id="icons11" class="icons-component instance-11 style-1">
 											<li>
 												<a class="n01" href="mailto:gmsmith@wpi.edu" role="button">
-													<svg aria-labelledby="icons11-icon-1-title"><title id="icons11-icon-1-title">Email</title><use xlink:href="assets/icons.svg#email"></use></svg>
+													<svg aria-labelledby="icons11-icon-1-title"><title id="icons11-icon-1-title">Email</title><use xlink:href="/assets/icons.svg#email"></use></svg>
 													<span class="label">Email</span>
 												</a>
 											</li><li>
 												<a class="n02" href="https://twitter.com/gillianmsmith" target="_blank" role="button">
-													<svg aria-labelledby="icons11-icon-2-title"><title id="icons11-icon-2-title">Twitter</title><use xlink:href="assets/icons.svg#twitter"></use></svg>
+													<svg aria-labelledby="icons11-icon-2-title"><title id="icons11-icon-2-title">Twitter</title><use xlink:href="/assets/icons.svg#twitter"></use></svg>
 													<span class="label">Twitter</span>
 												</a>
 											</li><li>
 												<a class="n03" href="https://scholar.google.com/citations?hl=en&user=4bHar00AAAAJ&view_op=list_works&sortby=pubdate" target="_blank" role="button">
-													<svg aria-labelledby="icons11-icon-3-title"><title id="icons11-icon-3-title">Google Scholar</title><use xlink:href="assets/icons.svg#google-scholar"></use></svg>
+													<svg aria-labelledby="icons11-icon-3-title"><title id="icons11-icon-3-title">Google Scholar</title><use xlink:href="/assets/icons.svg#google-scholar"></use></svg>
 													<span class="label">Google Scholar</span>
 												</a>
 											</li>
@@ -492,34 +1281,34 @@
 								<div class="inner" data-onvisible-trigger="1">
 									<div>
 										<div id="image61" class="image-component instance-61" data-position="center">
-											<span class="frame"><img src="assets/images/image61.jpg" alt="Francisco Castro&#039;s picture" oncontextmenu="return false;" ondragstart="return false;" /></span>
+											<span class="frame"><img src="/assets/images/image61.jpg" alt="Francisco Castro&#039;s picture" oncontextmenu="return false;" ondragstart="return false;" /></span>
 										</div>
 										<p id="text10" class="text-component instance-10 style-19">Dr. Francisco Castro</p>
 										<p id="text88" class="text-component instance-88 style-17"><span class="p">Research Scientist<br />New York University</span></p>
 										<ul id="icons09" class="icons-component instance-9 style-1">
 											<li>
 												<a class="n01" href="mailto:francisco.castro@nyu.edu" role="button">
-													<svg aria-labelledby="icons09-icon-1-title"><title id="icons09-icon-1-title">Email</title><use xlink:href="assets/icons.svg#email"></use></svg>
+													<svg aria-labelledby="icons09-icon-1-title"><title id="icons09-icon-1-title">Email</title><use xlink:href="/assets/icons.svg#email"></use></svg>
 													<span class="label">Email</span>
 												</a>
 											</li><li>
 												<a class="n02" href="https://beacons.ai/franciscocastro" target="_blank" role="button">
-													<svg aria-labelledby="icons09-icon-2-title"><title id="icons09-icon-2-title">Globe</title><use xlink:href="assets/icons.svg#globe"></use></svg>
+													<svg aria-labelledby="icons09-icon-2-title"><title id="icons09-icon-2-title">Globe</title><use xlink:href="/assets/icons.svg#globe"></use></svg>
 													<span class="label">Globe</span>
 												</a>
 											</li><li>
 												<a class="n03" href="https://www.linkedin.com/in/fevgcastro/" target="_blank" role="button">
-													<svg aria-labelledby="icons09-icon-3-title"><title id="icons09-icon-3-title">LinkedIn</title><use xlink:href="assets/icons.svg#linkedin"></use></svg>
+													<svg aria-labelledby="icons09-icon-3-title"><title id="icons09-icon-3-title">LinkedIn</title><use xlink:href="/assets/icons.svg#linkedin"></use></svg>
 													<span class="label">LinkedIn</span>
 												</a>
 											</li><li>
 												<a class="n04" href="https://twitter.com/DrFrancisCastro" target="_blank" role="button">
-													<svg aria-labelledby="icons09-icon-4-title"><title id="icons09-icon-4-title">Twitter</title><use xlink:href="assets/icons.svg#twitter"></use></svg>
+													<svg aria-labelledby="icons09-icon-4-title"><title id="icons09-icon-4-title">Twitter</title><use xlink:href="/assets/icons.svg#twitter"></use></svg>
 													<span class="label">Twitter</span>
 												</a>
 											</li><li>
 												<a class="n05" href="https://scholar.google.com/citations?user=ubFX8kwAAAAJ" target="_blank" role="button">
-													<svg aria-labelledby="icons09-icon-5-title"><title id="icons09-icon-5-title">Google Scholar</title><use xlink:href="assets/icons.svg#google-scholar"></use></svg>
+													<svg aria-labelledby="icons09-icon-5-title"><title id="icons09-icon-5-title">Google Scholar</title><use xlink:href="/assets/icons.svg#google-scholar"></use></svg>
 													<span class="label">Google Scholar</span>
 												</a>
 											</li>
@@ -527,19 +1316,19 @@
 									</div>
 									<div>
 										<div id="image13" class="image-component instance-13" data-position="center">
-											<span class="frame"><img src="assets/images/image13.jpg" alt="Matt Micciolo&#039;s picture" oncontextmenu="return false;" ondragstart="return false;" /></span>
+											<span class="frame"><img src="/assets/images/image13.jpg" alt="Matt Micciolo&#039;s picture" oncontextmenu="return false;" ondragstart="return false;" /></span>
 										</div>
 										<p id="text18" class="text-component instance-18 style-19">Matt Micciolo</p>
 										<p id="text83" class="text-component instance-83 style-17"><span class="p">Software Consultant<br />UMass Amherst</span></p>
 										<ul id="icons07" class="icons-component instance-7 style-1">
 											<li>
 												<a class="n01" href="mailto:mmicciolo@wpi.edu" role="button">
-													<svg aria-labelledby="icons07-icon-1-title"><title id="icons07-icon-1-title">Email</title><use xlink:href="assets/icons.svg#email"></use></svg>
+													<svg aria-labelledby="icons07-icon-1-title"><title id="icons07-icon-1-title">Email</title><use xlink:href="/assets/icons.svg#email"></use></svg>
 													<span class="label">Email</span>
 												</a>
 											</li><li>
 												<a class="n02" href="https://www.linkedin.com/in/matthew-micciolo-23a28890/" target="_blank" role="button">
-													<svg aria-labelledby="icons07-icon-2-title"><title id="icons07-icon-2-title">LinkedIn</title><use xlink:href="assets/icons.svg#linkedin"></use></svg>
+													<svg aria-labelledby="icons07-icon-2-title"><title id="icons07-icon-2-title">LinkedIn</title><use xlink:href="/assets/icons.svg#linkedin"></use></svg>
 													<span class="label">LinkedIn</span>
 												</a>
 											</li>
@@ -561,14 +1350,14 @@
 								<div class="inner" data-onvisible-trigger="1">
 									<div>
 										<div id="image23" class="image-component instance-23" data-position="center">
-											<span class="frame"><img src="assets/images/image23.jpg" alt="" oncontextmenu="return false;" ondragstart="return false;" /></span>
+											<span class="frame"><img src="/assets/images/image23.jpg" alt="" oncontextmenu="return false;" ondragstart="return false;" /></span>
 										</div>
 										<p id="text73" class="text-component instance-73 style-19">Allison Poh</p>
 										<p id="text46" class="text-component instance-46 style-17"><span class="p">Research Assistant &amp; PhD Candidate<br />UMass Amherst</span></p>
 										<ul id="icons01" class="icons-component instance-1 style-1">
 											<li>
 												<a class="n01" href="mailto:apoh@umass.edu" role="button">
-													<svg aria-labelledby="icons01-icon-1-title"><title id="icons01-icon-1-title">Email</title><use xlink:href="assets/icons.svg#email"></use></svg>
+													<svg aria-labelledby="icons01-icon-1-title"><title id="icons01-icon-1-title">Email</title><use xlink:href="/assets/icons.svg#email"></use></svg>
 													<span class="label">Email</span>
 												</a>
 											</li>
@@ -576,19 +1365,19 @@
 									</div>
 									<div>
 										<div id="image24" class="image-component instance-24" data-position="center">
-											<span class="frame"><img src="assets/images/image24.jpg" alt="" oncontextmenu="return false;" ondragstart="return false;" /></span>
+											<span class="frame"><img src="/assets/images/image24.jpg" alt="" oncontextmenu="return false;" ondragstart="return false;" /></span>
 										</div>
 										<p id="text89" class="text-component instance-89 style-19">Injila Rasul</p>
 										<p id="text205" class="text-component instance-205 style-17"><span class="p">Research Assistant &amp; PhD Candidate<br />UMass Amherst</span></p>
 										<ul id="icons15" class="icons-component instance-15 style-1">
 											<li>
 												<a class="n01" href="mailto:irasul@umass.edu" role="button">
-													<svg aria-labelledby="icons15-icon-1-title"><title id="icons15-icon-1-title">Email</title><use xlink:href="assets/icons.svg#email"></use></svg>
+													<svg aria-labelledby="icons15-icon-1-title"><title id="icons15-icon-1-title">Email</title><use xlink:href="/assets/icons.svg#email"></use></svg>
 													<span class="label">Email</span>
 												</a>
 											</li><li>
 												<a class="n02" href="https://www.linkedin.com/in/injila-rasul-03a747147/" target="_blank" role="button">
-													<svg aria-labelledby="icons15-icon-2-title"><title id="icons15-icon-2-title">LinkedIn</title><use xlink:href="assets/icons.svg#linkedin"></use></svg>
+													<svg aria-labelledby="icons15-icon-2-title"><title id="icons15-icon-2-title">LinkedIn</title><use xlink:href="/assets/icons.svg#linkedin"></use></svg>
 													<span class="label">LinkedIn</span>
 												</a>
 											</li>
@@ -596,24 +1385,24 @@
 									</div>
 									<div>
 										<div id="image28" class="image-component instance-28" data-position="center">
-											<span class="frame"><img src="assets/images/image28.jpg" alt="" oncontextmenu="return false;" ondragstart="return false;" /></span>
+											<span class="frame"><img src="/assets/images/image28.jpg" alt="" oncontextmenu="return false;" ondragstart="return false;" /></span>
 										</div>
 										<p id="text227" class="text-component instance-227 style-19">Sai Gattupalli</p>
 										<p id="text214" class="text-component instance-214 style-17"><span class="p">Research Assistant &amp; PhD Candidate<br />UMass Amherst</span></p>
 										<ul id="icons16" class="icons-component instance-16 style-1">
 											<li>
 												<a class="n01" href="mailto:sgattupalli@umass.edu" role="button">
-													<svg aria-labelledby="icons16-icon-1-title"><title id="icons16-icon-1-title">Email</title><use xlink:href="assets/icons.svg#email"></use></svg>
+													<svg aria-labelledby="icons16-icon-1-title"><title id="icons16-icon-1-title">Email</title><use xlink:href="/assets/icons.svg#email"></use></svg>
 													<span class="label">Email</span>
 												</a>
 											</li><li>
 												<a class="n02" href="https://www.linkedin.com/in/gattusai/" target="_blank" role="button">
-													<svg aria-labelledby="icons16-icon-2-title"><title id="icons16-icon-2-title">LinkedIn</title><use xlink:href="assets/icons.svg#linkedin"></use></svg>
+													<svg aria-labelledby="icons16-icon-2-title"><title id="icons16-icon-2-title">LinkedIn</title><use xlink:href="/assets/icons.svg#linkedin"></use></svg>
 													<span class="label">LinkedIn</span>
 												</a>
 											</li><li>
 												<a class="n03" href="https://scholar.google.com/citations?hl=en&user=cnbheWoAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" role="button">
-													<svg aria-labelledby="icons16-icon-3-title"><title id="icons16-icon-3-title">Google Scholar</title><use xlink:href="assets/icons.svg#google-scholar"></use></svg>
+													<svg aria-labelledby="icons16-icon-3-title"><title id="icons16-icon-3-title">Google Scholar</title><use xlink:href="/assets/icons.svg#google-scholar"></use></svg>
 													<span class="label">Google Scholar</span>
 												</a>
 											</li>
@@ -627,14 +1416,14 @@
 								<div class="inner" data-onvisible-trigger="1">
 									<div>
 										<div id="image16" class="image-component instance-16" data-position="center">
-											<span class="frame"><img src="assets/images/image16.jpg" alt="" oncontextmenu="return false;" ondragstart="return false;" /></span>
+											<span class="frame"><img src="/assets/images/image16.jpg" alt="" oncontextmenu="return false;" ondragstart="return false;" /></span>
 										</div>
 										<p id="text87" class="text-component instance-87 style-19">Will Lee</p>
 										<p id="text190" class="text-component instance-190 style-17"><span class="p">Research Assistant &amp; PhD Student<br />UMass Amherst</span></p>
 										<ul id="icons18" class="icons-component instance-18 style-1">
 											<li>
 												<a class="n01" href="mailto:williamlee@umass.edu" role="button">
-													<svg aria-labelledby="icons18-icon-1-title"><title id="icons18-icon-1-title">Email</title><use xlink:href="assets/icons.svg#email"></use></svg>
+													<svg aria-labelledby="icons18-icon-1-title"><title id="icons18-icon-1-title">Email</title><use xlink:href="/assets/icons.svg#email"></use></svg>
 													<span class="label">Email</span>
 												</a>
 											</li>
@@ -657,7 +1446,7 @@
 								<div class="inner">
 									<div>
 										<div id="image17" class="image-component instance-17" data-position="center">
-											<span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAzNzEgMzcxIiB3aWR0aD0iMzcxIiBoZWlnaHQ9IjM3MSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzIzMjUxNCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D" data-src="assets/images/image17.jpg" alt="" oncontextmenu="return false;" ondragstart="return false;" /></span>
+											<span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAzNzEgMzcxIiB3aWR0aD0iMzcxIiBoZWlnaHQ9IjM3MSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzIzMjUxNCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D" data-src="/assets/images/image17.jpg" alt="" oncontextmenu="return false;" ondragstart="return false;" /></span>
 										</div>
 										<p id="text403" class="text-component instance-403 style-19">Claire</p>
 										<p id="text404" class="text-component instance-404">Behning</p>
@@ -665,7 +1454,7 @@
 									</div>
 									<div>
 										<div id="image20" class="image-component instance-20" data-position="center">
-											<span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAzNzYgMzc2IiB3aWR0aD0iMzc2IiBoZWlnaHQ9IjM3NiIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzMyMmUxOCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D" data-src="assets/images/image20.jpg" alt="" oncontextmenu="return false;" ondragstart="return false;" /></span>
+											<span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAzNzYgMzc2IiB3aWR0aD0iMzc2IiBoZWlnaHQ9IjM3NiIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzMyMmUxOCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D" data-src="/assets/images/image20.jpg" alt="" oncontextmenu="return false;" ondragstart="return false;" /></span>
 										</div>
 										<p id="text406" class="text-component instance-406 style-19">Olivia</p>
 										<p id="text407" class="text-component instance-407">Bogs</p>
@@ -673,7 +1462,7 @@
 										<ul id="icons03" class="icons-component instance-3 style-1">
 											<li>
 												<a class="n01" href="https://www.linkedin.com/in/olivia-bogs-77b58814a/" target="_blank" role="button">
-													<svg aria-labelledby="icons03-icon-1-title"><title id="icons03-icon-1-title">LinkedIn</title><use xlink:href="assets/icons.svg#linkedin"></use></svg>
+													<svg aria-labelledby="icons03-icon-1-title"><title id="icons03-icon-1-title">LinkedIn</title><use xlink:href="/assets/icons.svg#linkedin"></use></svg>
 													<span class="label">LinkedIn</span>
 												</a>
 											</li>
@@ -681,7 +1470,7 @@
 									</div>
 									<div>
 										<div id="image22" class="image-component instance-22" data-position="center">
-											<span class="frame"><img src="assets/images/image22.jpg" alt="Avery Harrison&#039;s picture" oncontextmenu="return false;" ondragstart="return false;" /></span>
+											<span class="frame"><img src="/assets/images/image22.jpg" alt="Avery Harrison&#039;s picture" oncontextmenu="return false;" ondragstart="return false;" /></span>
 										</div>
 										<p id="text409" class="text-component instance-409 style-19">Avery</p>
 										<p id="text410" class="text-component instance-410">Harrison</p>
@@ -689,12 +1478,12 @@
 										<ul id="icons05" class="icons-component instance-5 style-1">
 											<li>
 												<a class="n01" href="https://www.linkedin.com/in/avery-harrison-501a7257/" target="_blank" role="button">
-													<svg aria-labelledby="icons05-icon-1-title"><title id="icons05-icon-1-title">LinkedIn</title><use xlink:href="assets/icons.svg#linkedin"></use></svg>
+													<svg aria-labelledby="icons05-icon-1-title"><title id="icons05-icon-1-title">LinkedIn</title><use xlink:href="/assets/icons.svg#linkedin"></use></svg>
 													<span class="label">LinkedIn</span>
 												</a>
 											</li><li>
 												<a class="n02" href="https://scholar.google.com/citations?user=UPdBqkkAAAAJ" target="_blank" role="button">
-													<svg aria-labelledby="icons05-icon-2-title"><title id="icons05-icon-2-title">Google Scholar</title><use xlink:href="assets/icons.svg#google-scholar"></use></svg>
+													<svg aria-labelledby="icons05-icon-2-title"><title id="icons05-icon-2-title">Google Scholar</title><use xlink:href="/assets/icons.svg#google-scholar"></use></svg>
 													<span class="label">Google Scholar</span>
 												</a>
 											</li>
@@ -708,7 +1497,7 @@
 								<div class="inner">
 									<div>
 										<div id="image03" class="image-component instance-3" data-position="center">
-											<span class="frame"><img src="assets/images/image03.jpg" alt="" oncontextmenu="return false;" ondragstart="return false;" /></span>
+											<span class="frame"><img src="/assets/images/image03.jpg" alt="" oncontextmenu="return false;" ondragstart="return false;" /></span>
 										</div>
 										<p id="text07" class="text-component instance-7 style-19">Krishna Chaitanya Rao</p>
 										<p id="text92" class="text-component instance-92">Kathala, PhD</p>
@@ -716,12 +1505,12 @@
 										<ul id="icons06" class="icons-component instance-6 style-1">
 											<li>
 												<a class="n01" href="mailto:kkathala@umass.edu" role="button">
-													<svg aria-labelledby="icons06-icon-1-title"><title id="icons06-icon-1-title">Email</title><use xlink:href="assets/icons.svg#email"></use></svg>
+													<svg aria-labelledby="icons06-icon-1-title"><title id="icons06-icon-1-title">Email</title><use xlink:href="/assets/icons.svg#email"></use></svg>
 													<span class="label">Email</span>
 												</a>
 											</li><li>
 												<a class="n02" href="https://twitter.com/rao_kathala" target="_blank" role="button">
-													<svg aria-labelledby="icons06-icon-2-title"><title id="icons06-icon-2-title">Twitter</title><use xlink:href="assets/icons.svg#twitter"></use></svg>
+													<svg aria-labelledby="icons06-icon-2-title"><title id="icons06-icon-2-title">Twitter</title><use xlink:href="/assets/icons.svg#twitter"></use></svg>
 													<span class="label">Twitter</span>
 												</a>
 											</li>
@@ -729,7 +1518,7 @@
 									</div>
 									<div>
 										<div id="image11" class="image-component instance-11" data-position="center">
-											<span class="frame"><img src="assets/images/image11.jpg" alt="" oncontextmenu="return false;" ondragstart="return false;" /></span>
+											<span class="frame"><img src="/assets/images/image11.jpg" alt="" oncontextmenu="return false;" ondragstart="return false;" /></span>
 										</div>
 										<p id="text380" class="text-component instance-380 style-19">Luisa</p>
 										<p id="text381" class="text-component instance-381">Perez</p>
@@ -737,7 +1526,7 @@
 										<ul id="icons10" class="icons-component instance-10 style-1">
 											<li>
 												<a class="n01" href="https://www.linkedin.com/in/luisa-perez-lacera-48319a128/" target="_blank" role="button">
-													<svg aria-labelledby="icons10-icon-1-title"><title id="icons10-icon-1-title">LinkedIn</title><use xlink:href="assets/icons.svg#linkedin"></use></svg>
+													<svg aria-labelledby="icons10-icon-1-title"><title id="icons10-icon-1-title">LinkedIn</title><use xlink:href="/assets/icons.svg#linkedin"></use></svg>
 													<span class="label">LinkedIn</span>
 												</a>
 											</li>
@@ -745,7 +1534,7 @@
 									</div>
 									<div>
 										<div id="image21" class="image-component instance-21" data-position="center">
-											<span class="frame"><img src="assets/images/image21.jpg" alt="" oncontextmenu="return false;" ondragstart="return false;" /></span>
+											<span class="frame"><img src="/assets/images/image21.jpg" alt="" oncontextmenu="return false;" ondragstart="return false;" /></span>
 										</div>
 										<p id="text383" class="text-component instance-383 style-19">Hannah</p>
 										<p id="text384" class="text-component instance-384">Smith, PhD</p>
@@ -753,7 +1542,7 @@
 										<ul id="icons13" class="icons-component instance-13 style-1">
 											<li>
 												<a class="n01" href="https://www.linkedin.com/in/hannah-smith-192b0b124/" target="_blank" role="button">
-													<svg aria-labelledby="icons13-icon-1-title"><title id="icons13-icon-1-title">LinkedIn</title><use xlink:href="assets/icons.svg#linkedin"></use></svg>
+													<svg aria-labelledby="icons13-icon-1-title"><title id="icons13-icon-1-title">LinkedIn</title><use xlink:href="/assets/icons.svg#linkedin"></use></svg>
 													<span class="label">LinkedIn</span>
 												</a>
 											</li>
@@ -767,7 +1556,7 @@
 								<div class="inner">
 									<div>
 										<div id="image09" class="image-component instance-9" data-position="center">
-											<span class="frame"><img src="assets/images/image09.jpg" alt="Matt Micciolo&#039;s picture" oncontextmenu="return false;" ondragstart="return false;" /></span>
+											<span class="frame"><img src="/assets/images/image09.jpg" alt="Matt Micciolo&#039;s picture" oncontextmenu="return false;" ondragstart="return false;" /></span>
 										</div>
 										<p id="text168" class="text-component instance-168 style-19">Grace</p>
 										<p id="text127" class="text-component instance-127">Seiche</p>
@@ -806,14 +1595,14 @@
 									<p id="text111" class="text-component instance-111 style-23"><mark>November 2024</mark></p>
 									<p id="text51" class="text-component instance-51 style-18">High School Students Shine in WearableLearning Computing Program</p>
 									<div id="image07" class="image-component instance-7">
-										<span class="frame"><img src="assets/images/image07.jpg" alt="" /></span>
+										<span class="frame"><img src="/assets/images/image07.jpg" alt="" /></span>
 									</div>
 									<p id="text187" class="text-component instance-187 style-6">Congratulations to the high school students who participated in the WearableLearning Computing Curriculum program held at Westfield State University. Their enthusiasm, creativity, and commitment to exploring computational thinking and active learning were truly inspiring. The ALT Lab applauds their efforts and looks forward to seeing their continued success in STEM fields.</p>
 									<hr id="divider04" class="divider-component instance-4 full screen">
 									<p id="text48" class="text-component instance-48 style-23"><mark>August 2024</mark></p>
 									<p id="text148" class="text-component instance-148 style-18">Massenberg and Upward Bound Students Excel in WearableLearning Computing Education Summer Camp</p>
 									<div id="image05" class="image-component instance-5">
-										<span class="frame"><img src="assets/images/image05.jpg" alt="" /></span>
+										<span class="frame"><img src="/assets/images/image05.jpg" alt="" /></span>
 									</div>
 									<p id="text151" class="text-component instance-151 style-6"><span class="p">Congratulations to the participants from the Massenberg and Upward Bound programs for successfully completing the WearableLearning Computing Education Summer Camp at UMass Amherst. This program provided students with hands-on experience in computational thinking, active learning, and embodied game design. Their innovative projects showcased their creativity and potential in STEM.</span><span class="p">Image credits: <a href="https://groups.cs.umass.edu/massenberg/" target="_blank">The Massenberg Summer STEM Institute at UMass Amherst</a></span></p>
 									<hr id="divider09" class="divider-component instance-9 full screen">
@@ -866,7 +1655,7 @@
 											<div class="inner">
 												<ul>
 													<li>
-														<a href="assets/images/gallery34/9706ba78_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA3OTkgMTIwMCIgd2lkdGg9Ijc5OSIgaGVpZ2h0PSIxMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjMjYzZDNmIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="assets/images/gallery34/9706ba78.jpg" alt="Untitled" title="Untitled" /></span></a>
+														<a href="/assets/images/gallery34/9706ba78_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA3OTkgMTIwMCIgd2lkdGg9Ijc5OSIgaGVpZ2h0PSIxMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjMjYzZDNmIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="/assets/images/gallery34/9706ba78.jpg" alt="Untitled" title="Untitled" /></span></a>
 													</li>
 												</ul>
 											</div>
@@ -875,7 +1664,7 @@
 											<div class="inner">
 												<ul>
 													<li>
-														<a href="assets/images/gallery35/85759cbb_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxMDg2IDEyMDAiIHdpZHRoPSIxMDg2IiBoZWlnaHQ9IjEyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiM4Njc5NjciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="assets/images/gallery35/85759cbb.jpg" alt="Untitled" title="Untitled" /></span></a>
+														<a href="/assets/images/gallery35/85759cbb_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxMDg2IDEyMDAiIHdpZHRoPSIxMDg2IiBoZWlnaHQ9IjEyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiM4Njc5NjciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="/assets/images/gallery35/85759cbb.jpg" alt="Untitled" title="Untitled" /></span></a>
 													</li>
 												</ul>
 											</div>
@@ -886,7 +1675,7 @@
 											<div class="inner">
 												<ul>
 													<li>
-														<a href="assets/images/gallery36/377fc8d4_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA5NjMgMTIwMCIgd2lkdGg9Ijk2MyIgaGVpZ2h0PSIxMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjN2I3MDYyIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="assets/images/gallery36/377fc8d4.jpg" alt="Untitled" title="Untitled" /></span></a>
+														<a href="/assets/images/gallery36/377fc8d4_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA5NjMgMTIwMCIgd2lkdGg9Ijk2MyIgaGVpZ2h0PSIxMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjN2I3MDYyIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="/assets/images/gallery36/377fc8d4.jpg" alt="Untitled" title="Untitled" /></span></a>
 													</li>
 												</ul>
 											</div>
@@ -895,7 +1684,7 @@
 											<div class="inner">
 												<ul>
 													<li>
-														<a href="assets/images/gallery37/8b8c49c3_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA3NjkgNjQxIiB3aWR0aD0iNzY5IiBoZWlnaHQ9IjY0MSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzJlMjgyMyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D" data-src="assets/images/gallery37/8b8c49c3.jpg" alt="Untitled" title="Untitled" /></span></a>
+														<a href="/assets/images/gallery37/8b8c49c3_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA3NjkgNjQxIiB3aWR0aD0iNzY5IiBoZWlnaHQ9IjY0MSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzJlMjgyMyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D" data-src="/assets/images/gallery37/8b8c49c3.jpg" alt="Untitled" title="Untitled" /></span></a>
 													</li>
 												</ul>
 											</div>
@@ -904,7 +1693,7 @@
 											<div class="inner">
 												<ul>
 													<li>
-														<a href="assets/images/gallery38/7502b67d_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAyMTcxIDEyMDAiIHdpZHRoPSIyMTcxIiBoZWlnaHQ9IjEyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiM3YjcwNWYiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="assets/images/gallery38/7502b67d.jpg" alt="Untitled" title="Untitled" /></span></a>
+														<a href="/assets/images/gallery38/7502b67d_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAyMTcxIDEyMDAiIHdpZHRoPSIyMTcxIiBoZWlnaHQ9IjEyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiM3YjcwNWYiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="/assets/images/gallery38/7502b67d.jpg" alt="Untitled" title="Untitled" /></span></a>
 													</li>
 												</ul>
 											</div>
@@ -915,7 +1704,7 @@
 											<div class="inner">
 												<ul>
 													<li>
-														<a href="assets/images/gallery39/1e01043e_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxMjI5IDEyMDAiIHdpZHRoPSIxMjI5IiBoZWlnaHQ9IjEyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiM3NDY1NTciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="assets/images/gallery39/1e01043e.jpg" alt="Untitled" title="Untitled" /></span></a>
+														<a href="/assets/images/gallery39/1e01043e_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxMjI5IDEyMDAiIHdpZHRoPSIxMjI5IiBoZWlnaHQ9IjEyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiM3NDY1NTciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="/assets/images/gallery39/1e01043e.jpg" alt="Untitled" title="Untitled" /></span></a>
 													</li>
 												</ul>
 											</div>
@@ -924,7 +1713,7 @@
 											<div class="inner">
 												<ul>
 													<li>
-														<a href="assets/images/gallery40/4655772a_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxOTEyIDExOTUiIHdpZHRoPSIxOTEyIiBoZWlnaHQ9IjExOTUiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiNhY2ExOTkiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="assets/images/gallery40/4655772a.jpg" alt="Untitled" title="Untitled" /></span></a>
+														<a href="/assets/images/gallery40/4655772a_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxOTEyIDExOTUiIHdpZHRoPSIxOTEyIiBoZWlnaHQ9IjExOTUiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiNhY2ExOTkiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="/assets/images/gallery40/4655772a.jpg" alt="Untitled" title="Untitled" /></span></a>
 													</li>
 												</ul>
 											</div>
@@ -933,7 +1722,7 @@
 											<div class="inner">
 												<ul>
 													<li>
-														<a href="assets/images/gallery41/23f0a2f9_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxNTk5IDEyMDAiIHdpZHRoPSIxNTk5IiBoZWlnaHQ9IjEyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiM0YjQ4NDQiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="assets/images/gallery41/23f0a2f9.jpg" alt="Untitled" title="Untitled" /></span></a>
+														<a href="/assets/images/gallery41/23f0a2f9_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxNTk5IDEyMDAiIHdpZHRoPSIxNTk5IiBoZWlnaHQ9IjEyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiM0YjQ4NDQiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="/assets/images/gallery41/23f0a2f9.jpg" alt="Untitled" title="Untitled" /></span></a>
 													</li>
 												</ul>
 											</div>
@@ -944,7 +1733,7 @@
 											<div class="inner">
 												<ul>
 													<li>
-														<a href="assets/images/gallery42/c2b2183e_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA5MDAgMTIwMCIgd2lkdGg9IjkwMCIgaGVpZ2h0PSIxMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjN2Q2ODU2IiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="assets/images/gallery42/c2b2183e.jpg" alt="Untitled" title="Untitled" /></span></a>
+														<a href="/assets/images/gallery42/c2b2183e_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA5MDAgMTIwMCIgd2lkdGg9IjkwMCIgaGVpZ2h0PSIxMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjN2Q2ODU2IiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="/assets/images/gallery42/c2b2183e.jpg" alt="Untitled" title="Untitled" /></span></a>
 													</li>
 												</ul>
 											</div>
@@ -953,7 +1742,7 @@
 											<div class="inner">
 												<ul>
 													<li>
-														<a href="assets/images/gallery43/c8e493b7_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA3OTIgMTIwMCIgd2lkdGg9Ijc5MiIgaGVpZ2h0PSIxMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjNjU1MTQ1IiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="assets/images/gallery43/c8e493b7.jpg" alt="Untitled" title="Untitled" /></span></a>
+														<a href="/assets/images/gallery43/c8e493b7_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA3OTIgMTIwMCIgd2lkdGg9Ijc5MiIgaGVpZ2h0PSIxMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjNjU1MTQ1IiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="/assets/images/gallery43/c8e493b7.jpg" alt="Untitled" title="Untitled" /></span></a>
 													</li>
 												</ul>
 											</div>
@@ -964,7 +1753,7 @@
 											<div class="inner">
 												<ul>
 													<li>
-														<a href="assets/images/gallery44/11ad1447_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA4OTggMTE5OSIgd2lkdGg9Ijg5OCIgaGVpZ2h0PSIxMTk5IiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjOWQ5NThkIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="assets/images/gallery44/11ad1447.jpg" alt="Untitled" title="Untitled" /></span></a>
+														<a href="/assets/images/gallery44/11ad1447_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA4OTggMTE5OSIgd2lkdGg9Ijg5OCIgaGVpZ2h0PSIxMTk5IiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjOWQ5NThkIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="/assets/images/gallery44/11ad1447.jpg" alt="Untitled" title="Untitled" /></span></a>
 													</li>
 												</ul>
 											</div>
@@ -973,7 +1762,7 @@
 											<div class="inner">
 												<ul>
 													<li>
-														<a href="assets/images/gallery45/be183d72_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA5MDEgMTIwMCIgd2lkdGg9IjkwMSIgaGVpZ2h0PSIxMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjNDkzMzJhIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="assets/images/gallery45/be183d72.jpg" alt="Untitled" title="Untitled" /></span></a>
+														<a href="/assets/images/gallery45/be183d72_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA5MDEgMTIwMCIgd2lkdGg9IjkwMSIgaGVpZ2h0PSIxMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjNDkzMzJhIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="/assets/images/gallery45/be183d72.jpg" alt="Untitled" title="Untitled" /></span></a>
 													</li>
 												</ul>
 											</div>
@@ -1049,7 +1838,7 @@
 											<div class="inner">
 												<ul>
 													<li>
-														<a href="assets/images/gallery48/c470f0f1_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA5ODkgNzcwIiB3aWR0aD0iOTg5IiBoZWlnaHQ9Ijc3MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzY1NTc0OSIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D" data-src="assets/images/gallery48/c470f0f1.jpg" alt="Untitled" title="Untitled" /></span></a>
+														<a href="/assets/images/gallery48/c470f0f1_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA5ODkgNzcwIiB3aWR0aD0iOTg5IiBoZWlnaHQ9Ijc3MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzY1NTc0OSIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D" data-src="/assets/images/gallery48/c470f0f1.jpg" alt="Untitled" title="Untitled" /></span></a>
 													</li>
 												</ul>
 											</div>
@@ -1058,7 +1847,7 @@
 											<div class="inner">
 												<ul>
 													<li>
-														<a href="assets/images/gallery47/9d776c64_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA5MDAgMTIwMCIgd2lkdGg9IjkwMCIgaGVpZ2h0PSIxMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjMzczMjRmIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="assets/images/gallery47/9d776c64.jpg" alt="Untitled" title="Untitled" /></span></a>
+														<a href="/assets/images/gallery47/9d776c64_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA5MDAgMTIwMCIgd2lkdGg9IjkwMCIgaGVpZ2h0PSIxMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjMzczMjRmIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="/assets/images/gallery47/9d776c64.jpg" alt="Untitled" title="Untitled" /></span></a>
 													</li>
 												</ul>
 											</div>
@@ -1069,7 +1858,7 @@
 											<div class="inner">
 												<ul>
 													<li>
-														<a href="assets/images/gallery49/32ff6d89_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxMTY1IDcxNSIgd2lkdGg9IjExNjUiIGhlaWdodD0iNzE1IiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjNTY1NDRmIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="assets/images/gallery49/32ff6d89.jpg" alt="Untitled" title="Untitled" /></span></a>
+														<a href="/assets/images/gallery49/32ff6d89_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxMTY1IDcxNSIgd2lkdGg9IjExNjUiIGhlaWdodD0iNzE1IiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjNTY1NDRmIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="/assets/images/gallery49/32ff6d89.jpg" alt="Untitled" title="Untitled" /></span></a>
 													</li>
 												</ul>
 											</div>
@@ -1078,7 +1867,7 @@
 											<div class="inner">
 												<ul>
 													<li>
-														<a href="assets/images/gallery52/2897e132_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxMjgwIDYyMSIgd2lkdGg9IjEyODAiIGhlaWdodD0iNjIxIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjMzIzNDM2IiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="assets/images/gallery52/2897e132.jpg" alt="Untitled" title="Untitled" /></span></a>
+														<a href="/assets/images/gallery52/2897e132_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxMjgwIDYyMSIgd2lkdGg9IjEyODAiIGhlaWdodD0iNjIxIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjMzIzNDM2IiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="/assets/images/gallery52/2897e132.jpg" alt="Untitled" title="Untitled" /></span></a>
 													</li>
 												</ul>
 											</div>
@@ -1087,7 +1876,7 @@
 											<div class="inner">
 												<ul>
 													<li>
-														<a href="assets/images/gallery01/fa5f636f_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxMjgwIDk2MCIgd2lkdGg9IjEyODAiIGhlaWdodD0iOTYwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjNTU0YTNkIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="assets/images/gallery01/fa5f636f.jpg" alt="Untitled" title="Untitled" /></span></a>
+														<a href="/assets/images/gallery01/fa5f636f_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxMjgwIDk2MCIgd2lkdGg9IjEyODAiIGhlaWdodD0iOTYwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjNTU0YTNkIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="/assets/images/gallery01/fa5f636f.jpg" alt="Untitled" title="Untitled" /></span></a>
 													</li>
 												</ul>
 											</div>
@@ -1098,7 +1887,7 @@
 											<div class="inner">
 												<ul>
 													<li>
-														<a href="assets/images/gallery57/a1711cea_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA2NjggNTUwIiB3aWR0aD0iNjY4IiBoZWlnaHQ9IjU1MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzNiMjkzMSIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D" data-src="assets/images/gallery57/a1711cea.jpg" alt="Untitled" title="Untitled" /></span></a>
+														<a href="/assets/images/gallery57/a1711cea_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA2NjggNTUwIiB3aWR0aD0iNjY4IiBoZWlnaHQ9IjU1MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzNiMjkzMSIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D" data-src="/assets/images/gallery57/a1711cea.jpg" alt="Untitled" title="Untitled" /></span></a>
 													</li>
 												</ul>
 											</div>
@@ -1107,7 +1896,7 @@
 											<div class="inner">
 												<ul>
 													<li>
-														<a href="assets/images/gallery50/ce55d677_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA4NTIgMTIwMCIgd2lkdGg9Ijg1MiIgaGVpZ2h0PSIxMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjMzYyZjJlIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="assets/images/gallery50/ce55d677.jpg" alt="Untitled" title="Untitled" /></span></a>
+														<a href="/assets/images/gallery50/ce55d677_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA4NTIgMTIwMCIgd2lkdGg9Ijg1MiIgaGVpZ2h0PSIxMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjMzYyZjJlIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="/assets/images/gallery50/ce55d677.jpg" alt="Untitled" title="Untitled" /></span></a>
 													</li>
 												</ul>
 											</div>
@@ -1118,7 +1907,7 @@
 											<div class="inner">
 												<ul>
 													<li>
-														<a href="assets/images/gallery56/e78bc39c_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA1ODMgMTIwMCIgd2lkdGg9IjU4MyIgaGVpZ2h0PSIxMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjNjE1YjU4IiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="assets/images/gallery56/e78bc39c.jpg" alt="Untitled" title="Untitled" /></span></a>
+														<a href="/assets/images/gallery56/e78bc39c_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA1ODMgMTIwMCIgd2lkdGg9IjU4MyIgaGVpZ2h0PSIxMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjNjE1YjU4IiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="/assets/images/gallery56/e78bc39c.jpg" alt="Untitled" title="Untitled" /></span></a>
 													</li>
 												</ul>
 											</div>
@@ -1129,7 +1918,7 @@
 											<div class="inner">
 												<ul>
 													<li>
-														<a href="assets/images/gallery51/0cea926a_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA1NDcgODY5IiB3aWR0aD0iNTQ3IiBoZWlnaHQ9Ijg2OSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzRhM2IzMiIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D" data-src="assets/images/gallery51/0cea926a.jpg" alt="Untitled" title="Untitled" /></span></a>
+														<a href="/assets/images/gallery51/0cea926a_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA1NDcgODY5IiB3aWR0aD0iNTQ3IiBoZWlnaHQ9Ijg2OSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzRhM2IzMiIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D" data-src="/assets/images/gallery51/0cea926a.jpg" alt="Untitled" title="Untitled" /></span></a>
 													</li>
 												</ul>
 											</div>
@@ -1138,7 +1927,7 @@
 											<div class="inner">
 												<ul>
 													<li>
-														<a href="assets/images/gallery58/ade33c33_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA4MDUgNTQ5IiB3aWR0aD0iODA1IiBoZWlnaHQ9IjU0OSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzY4M2Y0MSIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D" data-src="assets/images/gallery58/ade33c33.jpg" alt="Untitled" title="Untitled" /></span></a>
+														<a href="/assets/images/gallery58/ade33c33_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA4MDUgNTQ5IiB3aWR0aD0iODA1IiBoZWlnaHQ9IjU0OSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzY4M2Y0MSIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D" data-src="/assets/images/gallery58/ade33c33.jpg" alt="Untitled" title="Untitled" /></span></a>
 													</li>
 												</ul>
 											</div>
@@ -1159,7 +1948,7 @@
 								<div class="inner">
 									<div>
 										<div id="image01" class="image-component instance-1" data-position="center">
-											<span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA3MjAgMzUyIiB3aWR0aD0iNzIwIiBoZWlnaHQ9IjM1MiIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzc5N2Y4YSIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D" data-src="assets/images/image01.jpg" alt="" oncontextmenu="return false;" ondragstart="return false;" /></span>
+											<span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA3MjAgMzUyIiB3aWR0aD0iNzIwIiBoZWlnaHQ9IjM1MiIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzc5N2Y4YSIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D" data-src="/assets/images/image01.jpg" alt="" oncontextmenu="return false;" ondragstart="return false;" /></span>
 										</div>
 										<p id="text582" class="text-component instance-582 style-6"><strong>Common Core Standard:</strong> Geometry Shapes <a href="https://tools.achievethecore.org/coherence-map/3/10" target="_blank">3.G</a></p>
 										<p id="text583" class="text-component instance-583 style-6">Tangrams Race is a geometric relay race that brings movement, excitement and geometry into the classroom. Tangrams Race is played individually or in teams of up to three. On each player’s turn, he or she receives a description on their phone of a geometric object (Tangram piece) in a pile across the room. Finally the Tangrams pieces are collaboratively assembled into a picture.</p>
@@ -1168,7 +1957,7 @@
 									</div>
 									<div>
 										<div id="image32" class="image-component instance-32" data-position="center">
-											<span class="frame"><img src="assets/images/image32.jpg" alt="" oncontextmenu="return false;" ondragstart="return false;" /></span>
+											<span class="frame"><img src="/assets/images/image32.jpg" alt="" oncontextmenu="return false;" ondragstart="return false;" /></span>
 										</div>
 										<p id="text612" class="text-component instance-612 style-6"><strong>Common Core Standard:</strong> The Number System <a href="https://tools.achievethecore.org/coherence-map/6/27" target="_blank">6.NS</a>, <a href="https://tools.achievethecore.org/coherence-map/7/32" target="_blank">7.NS</a></p>
 										<p id="text613" class="text-component instance-613 style-6">Integer Hopscotch is a movement-based game designed for students to practice working with negative integers. A number line with color coded integers is laid out on the floor for each team of two students to use. Teams of students work together to solve word problems and the first team to finish all the problems wins.</p>
@@ -1184,7 +1973,7 @@
 								<div class="inner">
 									<div>
 										<div id="image31" class="image-component instance-31" data-position="center">
-											<span class="frame"><img src="assets/images/image31.jpg" alt="" oncontextmenu="return false;" ondragstart="return false;" /></span>
+											<span class="frame"><img src="/assets/images/image31.jpg" alt="" oncontextmenu="return false;" ondragstart="return false;" /></span>
 										</div>
 										<p id="text602" class="text-component instance-602 style-6"><strong>Common Core Standard:</strong> Geometry <a href="https://tools.achievethecore.org/coherence-map/3/10" target="_blank">3.G</a>, Measurement <a href="https://tools.achievethecore.org/coherence-map/4/16" target="_blank">4.MD</a></p>
 										<p id="text603" class="text-component instance-603 style-6">EstimateIT! is a cooperative and competitive math scavenger hunt played individually or in teams of up to three. Players are tasked with finding, identifying, and measuring geometric objects scattered around the room based on clues given to them on their mobile devices.</p>
@@ -1192,7 +1981,7 @@
 									</div>
 									<div>
 										<div id="image35" class="image-component instance-35" data-position="center">
-											<span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA3MjAgMzUyIiB3aWR0aD0iNzIwIiBoZWlnaHQ9IjM1MiIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzZlNzY4NSIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D" data-src="assets/images/image35.jpg" alt="" oncontextmenu="return false;" ondragstart="return false;" /></span>
+											<span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA3MjAgMzUyIiB3aWR0aD0iNzIwIiBoZWlnaHQ9IjM1MiIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzZlNzY4NSIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D" data-src="/assets/images/image35.jpg" alt="" oncontextmenu="return false;" ondragstart="return false;" /></span>
 										</div>
 										<p id="text223" class="text-component instance-223 style-6"><strong>Common Core Standard:</strong> Number and Operations: Fractions <a href="https://tools.achievethecore.org/coherence-map/3/13" target="_blank">3.NF</a>, <a href="https://tools.achievethecore.org/coherence-map/4/18" target="_blank">4.NF</a>, <a href="https://tools.achievethecore.org/coherence-map/5/23" target="_blank">5.NF</a></p>
 										<p id="text502" class="text-component instance-502 style-6">Running for Fractions is a relay race that challenges teams of up to three players to solve math problems by using fractions that they find during the game. The objective is for students to identify fractions and solve related word problems using models of fractions. Finding Fractions is designed to get students exercising their minds as well as their bodies.</p>
@@ -1208,7 +1997,7 @@
 								<div class="inner">
 									<div>
 										<div id="image34" class="image-component instance-34" data-position="center">
-											<span class="frame"><img src="assets/images/image34.jpg" alt="" oncontextmenu="return false;" ondragstart="return false;" /></span>
+											<span class="frame"><img src="/assets/images/image34.jpg" alt="" oncontextmenu="return false;" ondragstart="return false;" /></span>
 										</div>
 										<p id="text160" class="text-component instance-160 style-6"><strong>Common Core Standard:</strong> Expressions and Equations <a href="https://tools.achievethecore.org/coherence-map/8/35" target="_blank">8.EE</a></p>
 										<p id="text203" class="text-component instance-203 style-6">The goal of this game is to review the various parts of the slope-intercept form of an equation and to ensure that students can read and interpret an equation written in this form. Students work in teams to go around to different stations featuring line graphs and must match an equation to the graph.</p>
@@ -1217,7 +2006,7 @@
 									</div>
 									<div>
 										<div id="image37" class="image-component instance-37" data-position="center">
-											<span class="frame"><img src="assets/images/image37.jpg" alt="" oncontextmenu="return false;" ondragstart="return false;" /></span>
+											<span class="frame"><img src="/assets/images/image37.jpg" alt="" oncontextmenu="return false;" ondragstart="return false;" /></span>
 										</div>
 										<p id="text02" class="text-component instance-2 style-6"><strong>Common Core Standard:</strong> Ratios &amp; Proportions <a href="https://tools.achievethecore.org/coherence-map/7/33" target="_blank">7.RP</a></p>
 										<p id="text61" class="text-component instance-61 style-6">Let’s Shoppe is a scavenger hunt game which challenges teams of students to solve real-world percent problems given to them on their mobile device. After solving the problem, students must search the classroom to find the card with the correct answer. The first team to finish the game is the winner!</p>
@@ -1624,7 +2413,7 @@
 										<div class="inner">
 											<ul>
 												<li>
-													<a href="assets/images/gallery14/e88ebdf6_original.png" class="thumbnail n01"><span class="frame"><img src="assets/images/gallery14/e88ebdf6.png" alt="Game player login screen" /></span></a><div class="caption"><p>Game player login screen</p></div>
+													<a href="/assets/images/gallery14/e88ebdf6_original.png" class="thumbnail n01"><span class="frame"><img src="/assets/images/gallery14/e88ebdf6.png" alt="Game player login screen" /></span></a><div class="caption"><p>Game player login screen</p></div>
 												</li>
 											</ul>
 										</div>
@@ -2295,7 +3084,7 @@
 										<div class="inner">
 											<ul>
 												<li>
-													<a href="assets/images/gallery03/58af3ea3_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAyMTc1IDE2OTIiIHdpZHRoPSIyMTc1IiBoZWlnaHQ9IjE2OTIiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiNkOGRhZGMiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="assets/images/gallery03/58af3ea3.jpg" alt="Basic design pattern" /></span></a><div class="caption"><p>Basic design pattern</p></div>
+													<a href="/assets/images/gallery03/58af3ea3_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAyMTc1IDE2OTIiIHdpZHRoPSIyMTc1IiBoZWlnaHQ9IjE2OTIiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiNkOGRhZGMiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="/assets/images/gallery03/58af3ea3.jpg" alt="Basic design pattern" /></span></a><div class="caption"><p>Basic design pattern</p></div>
 												</li>
 											</ul>
 										</div>
@@ -2305,7 +3094,7 @@
 										<div class="inner">
 											<ul>
 												<li>
-													<a href="assets/images/gallery15/22964411_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxNTI3IDEyOTAiIHdpZHRoPSIxNTI3IiBoZWlnaHQ9IjEyOTAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiNkM2Q2ZGEiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="assets/images/gallery15/22964411.jpg" alt="A linear design pattern with an incorrect state that leads back to the original question" /></span></a><div class="caption"><p>A linear design pattern with an incorrect state that leads back to the original question</p></div>
+													<a href="/assets/images/gallery15/22964411_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxNTI3IDEyOTAiIHdpZHRoPSIxNTI3IiBoZWlnaHQ9IjEyOTAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiNkM2Q2ZGEiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="/assets/images/gallery15/22964411.jpg" alt="A linear design pattern with an incorrect state that leads back to the original question" /></span></a><div class="caption"><p>A linear design pattern with an incorrect state that leads back to the original question</p></div>
 												</li>
 											</ul>
 										</div>
@@ -2315,7 +3104,7 @@
 										<div class="inner">
 											<ul>
 												<li>
-													<a href="assets/images/gallery10/3d48d267_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxNTI0IDE0MjUiIHdpZHRoPSIxNTI0IiBoZWlnaHQ9IjE0MjUiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiNkN2RhZGQiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="assets/images/gallery10/3d48d267.jpg" alt="Patterns with correct and incorrect states where the incorrect state can lead to the original question." /></span></a><div class="caption"><p>Patterns with correct and incorrect states where the incorrect state can lead to the original question.</p></div>
+													<a href="/assets/images/gallery10/3d48d267_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxNTI0IDE0MjUiIHdpZHRoPSIxNTI0IiBoZWlnaHQ9IjE0MjUiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiNkN2RhZGQiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="/assets/images/gallery10/3d48d267.jpg" alt="Patterns with correct and incorrect states where the incorrect state can lead to the original question." /></span></a><div class="caption"><p>Patterns with correct and incorrect states where the incorrect state can lead to the original question.</p></div>
 												</li>
 											</ul>
 										</div>
@@ -2324,7 +3113,7 @@
 										<div class="inner">
 											<ul>
 												<li>
-													<a href="assets/images/gallery11/493d4157_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxNDkxIDE1MzMiIHdpZHRoPSIxNDkxIiBoZWlnaHQ9IjE1MzMiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiNkNWQ4ZGIiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="assets/images/gallery11/493d4157.jpg" alt="Patterns with correct and incorrect states where the incorrect state can lead to the next question." /></span></a><div class="caption"><p>Patterns with correct and incorrect states where the incorrect state can lead to the next question.</p></div>
+													<a href="/assets/images/gallery11/493d4157_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxNDkxIDE1MzMiIHdpZHRoPSIxNDkxIiBoZWlnaHQ9IjE1MzMiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiNkNWQ4ZGIiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="/assets/images/gallery11/493d4157.jpg" alt="Patterns with correct and incorrect states where the incorrect state can lead to the next question." /></span></a><div class="caption"><p>Patterns with correct and incorrect states where the incorrect state can lead to the next question.</p></div>
 												</li>
 											</ul>
 										</div>
@@ -2333,7 +3122,7 @@
 										<div class="inner">
 											<ul>
 												<li>
-													<a href="assets/images/gallery07/bfdfe565_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxMzY1IDE1NDIiIHdpZHRoPSIxMzY1IiBoZWlnaHQ9IjE1NDIiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiNjY2NmZDQiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="assets/images/gallery07/bfdfe565.jpg" alt="Patterns with correct and incorrect states where the incorrect state can lead to an entirely new question." /></span></a><div class="caption"><p>Patterns with correct and incorrect states where the incorrect state can lead to an entirely new question.</p></div>
+													<a href="/assets/images/gallery07/bfdfe565_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxMzY1IDE1NDIiIHdpZHRoPSIxMzY1IiBoZWlnaHQ9IjE1NDIiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiNjY2NmZDQiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="/assets/images/gallery07/bfdfe565.jpg" alt="Patterns with correct and incorrect states where the incorrect state can lead to an entirely new question." /></span></a><div class="caption"><p>Patterns with correct and incorrect states where the incorrect state can lead to an entirely new question.</p></div>
 												</li>
 											</ul>
 										</div>
@@ -2343,7 +3132,7 @@
 										<div class="inner">
 											<ul>
 												<li>
-													<a href="assets/images/gallery09/e24d0cc7_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxNTMwIDExMzEiIHdpZHRoPSIxNTMwIiBoZWlnaHQ9IjExMzEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiNkOWRiZGUiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="assets/images/gallery09/e24d0cc7.jpg" alt="A pattern with a hint accessed from the question." /></span></a><div class="caption"><p>A pattern with a hint accessed from the question.</p></div>
+													<a href="/assets/images/gallery09/e24d0cc7_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxNTMwIDExMzEiIHdpZHRoPSIxNTMwIiBoZWlnaHQ9IjExMzEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiNkOWRiZGUiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="/assets/images/gallery09/e24d0cc7.jpg" alt="A pattern with a hint accessed from the question." /></span></a><div class="caption"><p>A pattern with a hint accessed from the question.</p></div>
 												</li>
 											</ul>
 										</div>
@@ -2352,7 +3141,7 @@
 										<div class="inner">
 											<ul>
 												<li>
-													<a href="assets/images/gallery13/ed591b1e_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxMzg5IDE1NDIiIHdpZHRoPSIxMzg5IiBoZWlnaHQ9IjE1NDIiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiNkMmQ1ZDkiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="assets/images/gallery13/ed591b1e.jpg" alt="A pattern with a hint accessed from the question from the incorrect state." /></span></a><div class="caption"><p>A pattern with a hint accessed from the question from the incorrect state.</p></div>
+													<a href="/assets/images/gallery13/ed591b1e_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxMzg5IDE1NDIiIHdpZHRoPSIxMzg5IiBoZWlnaHQ9IjE1NDIiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiNkMmQ1ZDkiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="/assets/images/gallery13/ed591b1e.jpg" alt="A pattern with a hint accessed from the question from the incorrect state." /></span></a><div class="caption"><p>A pattern with a hint accessed from the question from the incorrect state.</p></div>
 												</li>
 											</ul>
 										</div>
@@ -2362,7 +3151,7 @@
 										<div class="inner">
 											<ul>
 												<li>
-													<a href="assets/images/gallery08/ed4368aa_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxNTI3IDEzNzciIHdpZHRoPSIxNTI3IiBoZWlnaHQ9IjEzNzciIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiNjYmNmZDMiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="assets/images/gallery08/ed4368aa.jpg" alt="An example of a poorly organized game." /></span></a><div class="caption"><p>An example of a poorly organized game.</p></div>
+													<a href="/assets/images/gallery08/ed4368aa_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxNTI3IDEzNzciIHdpZHRoPSIxNTI3IiBoZWlnaHQ9IjEzNzciIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiNjYmNmZDMiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="/assets/images/gallery08/ed4368aa.jpg" alt="An example of a poorly organized game." /></span></a><div class="caption"><p>An example of a poorly organized game.</p></div>
 												</li>
 											</ul>
 										</div>
@@ -2423,7 +3212,7 @@
 										<div class="inner">
 											<ul>
 												<li>
-													<a href="assets/images/gallery06/8ab91937_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAyNTYwIDEyNDYiIHdpZHRoPSIyNTYwIiBoZWlnaHQ9IjEyNDYiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiNjNmIyYjMiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="assets/images/gallery06/8ab91937.jpg" alt="WearableLearning Builder" /></span></a><div class="caption"><p>WearableLearning Builder</p></div>
+													<a href="/assets/images/gallery06/8ab91937_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAyNTYwIDEyNDYiIHdpZHRoPSIyNTYwIiBoZWlnaHQ9IjEyNDYiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiNjNmIyYjMiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="/assets/images/gallery06/8ab91937.jpg" alt="WearableLearning Builder" /></span></a><div class="caption"><p>WearableLearning Builder</p></div>
 												</li>
 											</ul>
 										</div>
@@ -2434,7 +3223,7 @@
 										<div class="inner">
 											<ul>
 												<li>
-													<a href="assets/images/gallery12/98d6d829_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA5NjQgNzIwIiB3aWR0aD0iOTY0IiBoZWlnaHQ9IjcyMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iI2ViZTRlNyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D" data-src="assets/images/gallery12/98d6d829.jpg" alt="A Connection" /></span></a><div class="caption"><p>A Connection</p></div>
+													<a href="/assets/images/gallery12/98d6d829_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA5NjQgNzIwIiB3aWR0aD0iOTY0IiBoZWlnaHQ9IjcyMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iI2ViZTRlNyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D" data-src="/assets/images/gallery12/98d6d829.jpg" alt="A Connection" /></span></a><div class="caption"><p>A Connection</p></div>
 												</li>
 											</ul>
 										</div>
@@ -2451,7 +3240,7 @@
 										<div class="inner">
 											<ul>
 												<li>
-													<a href="assets/images/gallery18/f03753b4_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAyNTYwIDgyNyIgd2lkdGg9IjI1NjAiIGhlaWdodD0iODI3IiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjYzhiN2JhIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="assets/images/gallery18/f03753b4.jpg" alt="WearableLearning Scope" /></span></a><div class="caption"><p>WearableLearning Scope</p></div>
+													<a href="/assets/images/gallery18/f03753b4_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAyNTYwIDgyNyIgd2lkdGg9IjI1NjAiIGhlaWdodD0iODI3IiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjYzhiN2JhIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="/assets/images/gallery18/f03753b4.jpg" alt="WearableLearning Scope" /></span></a><div class="caption"><p>WearableLearning Scope</p></div>
 												</li>
 											</ul>
 										</div>
@@ -2462,7 +3251,7 @@
 										<div class="inner">
 											<ul>
 												<li>
-													<a href="assets/images/gallery20/18168b8c_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAyNTYwIDE3NjUiIHdpZHRoPSIyNTYwIiBoZWlnaHQ9IjE3NjUiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiNlYWRlZTEiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="assets/images/gallery20/18168b8c.jpg" alt="Source State" /></span></a><div class="caption"><p>Source State</p></div>
+													<a href="/assets/images/gallery20/18168b8c_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAyNTYwIDE3NjUiIHdpZHRoPSIyNTYwIiBoZWlnaHQ9IjE3NjUiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiNlYWRlZTEiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="/assets/images/gallery20/18168b8c.jpg" alt="Source State" /></span></a><div class="caption"><p>Source State</p></div>
 												</li>
 											</ul>
 										</div>
@@ -2473,7 +3262,7 @@
 										<div class="inner">
 											<ul>
 												<li>
-													<a href="assets/images/gallery21/fdad11a7_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxMjQ1IDEwODAiIHdpZHRoPSIxMjQ1IiBoZWlnaHQ9IjEwODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiNlM2RlZGQiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="assets/images/gallery21/fdad11a7.jpg" alt="Start State: Connections and States begin here." /></span></a><div class="caption"><p>Start State: Connections and States begin here.</p></div>
+													<a href="/assets/images/gallery21/fdad11a7_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxMjQ1IDEwODAiIHdpZHRoPSIxMjQ1IiBoZWlnaHQ9IjEwODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiNlM2RlZGQiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="/assets/images/gallery21/fdad11a7.jpg" alt="Start State: Connections and States begin here." /></span></a><div class="caption"><p>Start State: Connections and States begin here.</p></div>
 												</li>
 											</ul>
 										</div>
@@ -2484,7 +3273,7 @@
 										<div class="inner">
 											<ul>
 												<li>
-													<a href="assets/images/gallery22/97d3eecf_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxNzY1IDE4MDAiIHdpZHRoPSIxNzY1IiBoZWlnaHQ9IjE4MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiNlMmQxZDQiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="assets/images/gallery22/97d3eecf.jpg" alt="States in WearableLearning Builder" /></span></a><div class="caption"><p>States in WearableLearning Builder</p></div>
+													<a href="/assets/images/gallery22/97d3eecf_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxNzY1IDE4MDAiIHdpZHRoPSIxNzY1IiBoZWlnaHQ9IjE4MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiNlMmQxZDQiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="/assets/images/gallery22/97d3eecf.jpg" alt="States in WearableLearning Builder" /></span></a><div class="caption"><p>States in WearableLearning Builder</p></div>
 												</li>
 											</ul>
 										</div>
@@ -2495,7 +3284,7 @@
 										<div class="inner">
 											<ul>
 												<li>
-													<a href="assets/images/gallery23/960f5730_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAyNTYwIDEyNDQiIHdpZHRoPSIyNTYwIiBoZWlnaHQ9IjEyNDQiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiM1ZjUzNTUiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="assets/images/gallery23/960f5730.jpg" alt="State editor" /></span></a><div class="caption"><p>State editor</p></div>
+													<a href="/assets/images/gallery23/960f5730_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAyNTYwIDEyNDQiIHdpZHRoPSIyNTYwIiBoZWlnaHQ9IjEyNDQiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiM1ZjUzNTUiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="/assets/images/gallery23/960f5730.jpg" alt="State editor" /></span></a><div class="caption"><p>State editor</p></div>
 												</li>
 											</ul>
 										</div>
@@ -2506,7 +3295,7 @@
 										<div class="inner">
 											<ul>
 												<li>
-													<a href="assets/images/gallery24/84b9f317_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxNjIzIDExMTkiIHdpZHRoPSIxNjIzIiBoZWlnaHQ9IjExMTkiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiNlY2UyZTUiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="assets/images/gallery24/84b9f317.jpg" alt="Target State" /></span></a><div class="caption"><p>Target State</p></div>
+													<a href="/assets/images/gallery24/84b9f317_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxNjIzIDExMTkiIHdpZHRoPSIxNjIzIiBoZWlnaHQ9IjExMTkiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiNlY2UyZTUiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="/assets/images/gallery24/84b9f317.jpg" alt="Target State" /></span></a><div class="caption"><p>Target State</p></div>
 												</li>
 											</ul>
 										</div>
@@ -2517,7 +3306,7 @@
 										<div class="inner">
 											<ul>
 												<li>
-													<a href="assets/images/gallery28/4205d213_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxMTE5IDY1NyIgd2lkdGg9IjExMTkiIGhlaWdodD0iNjU3IiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjYjdhNWE4IiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="assets/images/gallery28/4205d213.jpg" alt="Toolbox" /></span></a><div class="caption"><p>Toolbox</p></div>
+													<a href="/assets/images/gallery28/4205d213_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxMTE5IDY1NyIgd2lkdGg9IjExMTkiIGhlaWdodD0iNjU3IiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjYjdhNWE4IiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="/assets/images/gallery28/4205d213.jpg" alt="Toolbox" /></span></a><div class="caption"><p>Toolbox</p></div>
 												</li>
 											</ul>
 										</div>
@@ -2528,7 +3317,7 @@
 										<div class="inner">
 											<ul>
 												<li>
-													<a href="assets/images/gallery26/9e15d51d_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAyMTYwIDU3MCIgd2lkdGg9IjIxNjAiIGhlaWdodD0iNTcwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjY2ViNWI3IiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="assets/images/gallery26/9e15d51d.jpg" alt="Top menu" /></span></a><div class="caption"><p>Top menu</p></div>
+													<a href="/assets/images/gallery26/9e15d51d_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAyMTYwIDU3MCIgd2lkdGg9IjIxNjAiIGhlaWdodD0iNTcwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjY2ViNWI3IiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="/assets/images/gallery26/9e15d51d.jpg" alt="Top menu" /></span></a><div class="caption"><p>Top menu</p></div>
 												</li>
 											</ul>
 										</div>
@@ -2539,7 +3328,7 @@
 										<div class="inner">
 											<ul>
 												<li>
-													<a href="assets/images/gallery27/ff6efa08_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxMzQ0IDEzMzUiIHdpZHRoPSIxMzQ0IiBoZWlnaHQ9IjEzMzUiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiNlMWRjZGYiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="assets/images/gallery27/ff6efa08.jpg" alt="Transition" /></span></a><div class="caption"><p>Transition</p></div>
+													<a href="/assets/images/gallery27/ff6efa08_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxMzQ0IDEzMzUiIHdpZHRoPSIxMzQ0IiBoZWlnaHQ9IjEzMzUiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiNlMWRjZGYiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="/assets/images/gallery27/ff6efa08.jpg" alt="Transition" /></span></a><div class="caption"><p>Transition</p></div>
 												</li>
 											</ul>
 										</div>
@@ -2550,7 +3339,7 @@
 										<div class="inner">
 											<ul>
 												<li>
-													<a href="assets/images/gallery02/e677fb7e_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxNTMwIDczOCIgd2lkdGg9IjE1MzAiIGhlaWdodD0iNzM4IiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjNjA1NDU2IiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="assets/images/gallery02/e677fb7e.jpg" alt="Transition Editor" /></span></a><div class="caption"><p>Transition Editor</p></div>
+													<a href="/assets/images/gallery02/e677fb7e_original.jpg" class="thumbnail n01"><span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxNTMwIDczOCIgd2lkdGg9IjE1MzAiIGhlaWdodD0iNzM4IiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjNjA1NDU2IiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="/assets/images/gallery02/e677fb7e.jpg" alt="Transition Editor" /></span></a><div class="caption"><p>Transition Editor</p></div>
 												</li>
 											</ul>
 										</div>
@@ -2622,7 +3411,7 @@
 									<p id="text402" class="text-component instance-402">Highlights of the Wearable Learning Project</p>
 									<p id="text393" class="text-component instance-393 style-22">Innovative Learning Through Motion, Design, and Discovery</p>
 									<div id="image25" class="image-component instance-25">
-										<span class="frame"><img src="assets/images/image25.png" alt="" /></span>
+										<span class="frame"><img src="/assets/images/image25.png" alt="" /></span>
 									</div>
 								</div>
 							</div>
@@ -2725,7 +3514,7 @@
 									<p id="text28" class="text-component instance-28">PD Framework</p>
 									<p id="text34" class="text-component instance-34 style-6">Researchers at Worcester Polytechnic Institute and The University of Massachusetts Amherst have designed a 7-14 week curriculum for teachers to follow with their students.</p>
 									<div id="image10" class="image-component instance-10">
-										<span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxNzg0IDk1OCIgd2lkdGg9IjE3ODQiIGhlaWdodD0iOTU4IiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjZTZlNmU2IiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="assets/images/image10.jpg" alt="Structure of the Wearable Learning Teacher PD Framework" /></span>
+										<span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxNzg0IDk1OCIgd2lkdGg9IjE3ODQiIGhlaWdodD0iOTU4IiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCBmaWxsPSIjZTZlNmU2IiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8%2BPC9zdmc%2B" data-src="/assets/images/image10.jpg" alt="Structure of the Wearable Learning Teacher PD Framework" /></span>
 									</div>
 									<p id="text77" class="text-component instance-77">Structure of the Wearable Learning Teacher PD Framework</p>
 								</div>
@@ -2774,7 +3563,7 @@
 										<p id="text19" class="text-component instance-19">To donate funds:</p>
 										<ul id="buttons07" class="buttons-component instance-7">
 											<li>
-												<a href="https://minutefund.umass.edu/project/6373/donate?des_id=280078" target="_blank" class="n01" role="button"><svg aria-labelledby="buttons07-icon-1-title"><title id="buttons07-icon-1-title">Chevron Right</title><use xlink:href="assets/icons.svg#arrow-right-alt"></use></svg><span class="label">Donate Funds</span></a>
+												<a href="https://minutefund.umass.edu/project/6373/donate?des_id=280078" target="_blank" class="n01" role="button"><svg aria-labelledby="buttons07-icon-1-title"><title id="buttons07-icon-1-title">Chevron Right</title><use xlink:href="/assets/icons.svg#arrow-right-alt"></use></svg><span class="label">Donate Funds</span></a>
 											</li>
 										</ul>
 									</div>
@@ -2782,7 +3571,7 @@
 										<p id="text37" class="text-component instance-37">To donate unused mobile phones to the Wearable Learning project:</p>
 										<ul id="buttons08" class="buttons-component instance-8">
 											<li>
-												<a href="https://forms.gle/gbbsAoLZP2PiGt858" target="_blank" class="n01" role="button"><svg aria-labelledby="buttons08-icon-1-title"><title id="buttons08-icon-1-title">Chevron Right</title><use xlink:href="assets/icons.svg#arrow-right-alt"></use></svg><span class="label">Donate Unused Phones</span></a>
+												<a href="https://forms.gle/gbbsAoLZP2PiGt858" target="_blank" class="n01" role="button"><svg aria-labelledby="buttons08-icon-1-title"><title id="buttons08-icon-1-title">Chevron Right</title><use xlink:href="/assets/icons.svg#arrow-right-alt"></use></svg><span class="label">Donate Unused Phones</span></a>
 											</li>
 										</ul>
 									</div>
@@ -2832,7 +3621,7 @@
 								<div class="inner">
 									<div>
 										<div id="image08" class="image-component instance-8" data-visibility="desktop">
-											<span class="frame"><img src="assets/images/image08.png" alt="Wearable Learning Cloud Platform logo" /></span>
+											<span class="frame"><img src="/assets/images/image08.png" alt="Wearable Learning Cloud Platform logo" /></span>
 										</div>
 										<p id="text09" class="text-component instance-9">Wearable Learning Computing Education Platform</p>
 										<h2 id="text386" class="text-component instance-386">Learn Programming and Computational Thinking Skills by Designing Mobile Math Games</h2>
@@ -2841,7 +3630,7 @@
 										<ul id="icons12" class="icons-component instance-12">
 											<li>
 												<a class="n01" href="https://twitter.com/WLCP2" target="_blank" role="button">
-													<svg aria-labelledby="icons12-icon-1-title"><title id="icons12-icon-1-title">Twitter</title><use xlink:href="assets/icons.svg#twitter"></use></svg>
+													<svg aria-labelledby="icons12-icon-1-title"><title id="icons12-icon-1-title">Twitter</title><use xlink:href="/assets/icons.svg#twitter"></use></svg>
 													<span class="label">Twitter</span>
 												</a>
 											</li>
@@ -2874,7 +3663,7 @@
 									<div>
 										<p id="text134" class="text-component instance-134 style-25">Acknowledgements</p>
 										<div id="image04" class="image-component instance-4">
-											<span class="frame"><img src="assets/images/image04.png" alt="National Science Foundation logo" /></span>
+											<span class="frame"><img src="/assets/images/image04.png" alt="National Science Foundation logo" /></span>
 										</div>
 										<p id="text188" class="text-component instance-188 style-6">The Wearable Learning Cloud Platform (WLCP) is supported by the <strong>National Science Foundation (NSF)</strong> awards IIS-2026722 and IIS-2041785.</p>
 										<hr id="divider15" class="divider-component instance-15">
@@ -2883,7 +3672,7 @@
 									<div>
 										<p id="text05" class="text-component instance-5 style-25">Developed and Maintained by</p>
 										<div id="image36" class="image-component instance-36">
-											<a href="https://advancedlearningtech.com/" target="_blank" class="frame"><img src="assets/images/image36.png" alt="Advanced Learning Technologies Lab logo" /></a>
+											<a href="https://advancedlearningtech.com/" target="_blank" class="frame"><img src="/assets/images/image36.png" alt="Advanced Learning Technologies Lab logo" /></a>
 										</div>
 										<p id="text27" class="text-component instance-27 style-6">Researchers at the <a href="https://advancedlearningtech.com/" target="_blank">Advanced Learning Technologies Lab</a>, University of Massachusetts Amherst.</p>
 										<p id="text23" class="text-component instance-23">Copyright © 2025. All rights reserved.</p>
@@ -2898,8 +3687,8 @@
 				</div>
 			</div>
 		</div>
-		<script src="assets/main.js"></script>
-		<!-- qweoqwupeoiqwuewqe --><html>
+		<script src="/assets/main.js"></script>
+		<html>
 		
 		<head>
 		<style>
@@ -2966,8 +3755,8 @@
 		</script>
 		</body>
 		
-		</html><!-- mnbnbxmbzxmncbzxc -->
-		<!-- qweoqwupeoiqwuewqe --><html>
+		</html>
+		<html>
 		
 		<head>
 		<style>
@@ -3034,8 +3823,8 @@
 		</script>
 		</body>
 		
-		</html><!-- mnbnbxmbzxmncbzxc -->
-		<!-- qweoqwupeoiqwuewqe --><html>
+		</html>
+		<html>
 		
 		<head>
 		<style>
@@ -3102,8 +3891,8 @@
 		</script>
 		</body>
 		
-		</html><!-- mnbnbxmbzxmncbzxc -->
-		<!-- qweoqwupeoiqwuewqe --><html>
+		</html>
+		<html>
 		
 		<head>
 		<style>
@@ -3170,8 +3959,8 @@
 		</script>
 		</body>
 		
-		</html><!-- mnbnbxmbzxmncbzxc -->
-		<!-- qweoqwupeoiqwuewqe --><html>
+		</html>
+		<html>
 		
 		<head>
 		<style>
@@ -3238,8 +4027,8 @@
 		</script>
 		</body>
 		
-		</html><!-- mnbnbxmbzxmncbzxc -->
-		<!-- qweoqwupeoiqwuewqe --><html>
+		</html>
+		<html>
 		
 		<head>
 		<style>
@@ -3306,8 +4095,8 @@
 		</script>
 		</body>
 		
-		</html><!-- mnbnbxmbzxmncbzxc -->
-		<!-- qweoqwupeoiqwuewqe --><html>
+		</html>
+		<html>
 		
 		<head>
 		<style>
@@ -3374,8 +4163,8 @@
 		</script>
 		</body>
 		
-		</html><!-- mnbnbxmbzxmncbzxc -->
-		<!-- qweoqwupeoiqwuewqe --><html>
+		</html>
+		<html>
 		
 		<head>
 		<style>
@@ -3442,8 +4231,8 @@
 		</script>
 		</body>
 		
-		</html><!-- mnbnbxmbzxmncbzxc -->
-		<!-- qweoqwupeoiqwuewqe --><html>
+		</html>
+		<html>
 		
 		<head>
 		<style>
@@ -3510,8 +4299,8 @@
 		</script>
 		</body>
 		
-		</html><!-- mnbnbxmbzxmncbzxc -->
-		<!-- qweoqwupeoiqwuewqe --><html>
+		</html>
+		<html>
 		
 		<head>
 		<style>
@@ -3578,8 +4367,8 @@
 		</script>
 		</body>
 		
-		</html><!-- mnbnbxmbzxmncbzxc -->
-		<!-- qweoqwupeoiqwuewqe --><html>
+		</html>
+		<html>
 		
 		<head>
 		<style>
@@ -3646,5 +4435,5 @@
 		</script>
 		</body>
 		
-		</html><!-- mnbnbxmbzxmncbzxc -->
+		</html>
 	</body>
