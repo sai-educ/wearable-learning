@@ -1,0 +1,26 @@
+baseURL = 'https://wearablelearning.org/'
+languageCode = 'en-us'
+title = 'Wearable Learning | Computational Thinking Games | Create and Play Educational Mobile Math Games'
+
+# Disable unnecessary features
+disableKinds = ['taxonomy', 'term']
+disableRSS = true
+disableSitemap = false
+
+# Permalinks
+[permalinks]
+  page = '/:filename'
+
+# Build configuration
+[build]
+  writeStats = false
+  
+[params]
+  description = 'The Wearable Learning is a free online tool to create and play educational embodied mobile games. Create and play engaging math games for grades 4-8 that encourage student collaboration and learning in the classroom or after-school programs.'
+  author = 'Wearable Learning Team'
+  
+# Markup configuration
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Allow raw HTML in markdown

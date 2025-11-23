@@ -1,0 +1,14 @@
+# Hugo
+public/
+resources/
+.hugo_build.lock
+
+# OS
+.DS_Store
+*.pdf.png
+
+# Backup
+hugo-site/
+
+# Dependencies
+node_modules/
