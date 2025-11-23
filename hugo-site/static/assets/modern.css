@@ -1,45 +1,46 @@
 /* ==========================================
-   WEARABLE LEARNING - MODERN DESIGN SYSTEM
+   WEARABLE LEARNING - OFFICIAL BRAND COLORS
+   Based on WearableLearning Branding Guidelines.pdf
    ========================================== */
 
-/* CSS Variables - Brand Colors & Design Tokens */
+/* CSS Variables - Official Brand Colors */
 :root {
-    /* Primary Brand Colors - Clean, Educational Palette */
-    --color-primary: #0066CC;
-    /* Vibrant Blue - Trust, Education */
-    --color-primary-dark: #004C99;
+    /* Primary Brand Colors - From Official Guidelines */
+    --color-primary: #005EA2;
+    /* Primary Blue */
+    --color-primary-dark: #004876;
     /* Darker Blue */
-    --color-primary-light: #3385D6;
+    --color-primary-light: #2E7AB5;
     /* Lighter Blue */
 
-    --color-secondary: #FF6B35;
-    /* Energetic Orange - Action, Creativity */
-    --color-secondary-dark: #E55A2B;
-    --color-secondary-light: #FF8A5C;
+    --color-secondary: #E5700D;
+    /* Orange/Amber */
+    --color-secondary-dark: #C4610B;
+    --color-secondary-light: #EF8934;
 
-    --color-accent: #00C896;
-    /* Fresh Green - Growth, Success */
-    --color-accent-dark: #00A77D;
+    --color-accent: #00A8A3;
+    /* Teal/Turquoise */
+    --color-accent-dark: #008B87;
 
     /* Neutral Colors */
-    --color-dark: #1A1A2E;
+    --color-dark: #1B1B1B;
     /* Almost Black */
-    --color-gray-900: #2D2D44;
-    --color-gray-800: #3F3F5C;
-    --color-gray-700: #5C5C7A;
-    --color-gray-600: #7A7A96;
-    --color-gray-500: #9696AE;
-    --color-gray-400: #B5B5C8;
-    --color-gray-300: #D4D4E0;
-    --color-gray-200: #E8E8F0;
-    --color-gray-100: #F4F4F8;
+    --color-gray-900: #2D2D2D;
+    --color-gray-800: #3F3F3F;
+    --color-gray-700: #5C5C5C;
+    --color-gray-600: #7A7A7A;
+    --color-gray-500: #969696;
+    --color-gray-400: #B5B5B5;
+    --color-gray-300: #D4D4D4;
+    --color-gray-200: #E8E8E8;
+    --color-gray-100: #F5F5F5;
     --color-white: #FFFFFF;
 
     /* Semantic Colors */
-    --color-success: #00C896;
-    --color-warning: #FFB020;
-    --color-error: #E63946;
-    --color-info: #0066CC;
+    --color-success: #00A8A3;
+    --color-warning: #E5700D;
+    --color-error: #D5312B;
+    --color-info: #005EA2;
 
     /* Typography */
     --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
@@ -232,7 +233,7 @@ em {
     position: sticky;
     top: 0;
     z-index: 1000;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(255, 255, 255, 0.98);
     backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--color-gray-200);
     box-shadow: var(--shadow-sm);
@@ -248,17 +249,20 @@ em {
 }
 
 .site-logo {
-    font-size: var(--text-xl);
-    font-weight: 700;
-    color: var(--color-primary);
     display: flex;
     align-items: center;
     gap: var(--space-3);
+    text-decoration: none;
+}
+
+.site-logo img {
+    height: 48px;
+    width: auto;
 }
 
 .site-logo:hover {
     text-decoration: none;
-    color: var(--color-primary-dark);
+    opacity: 0.9;
 }
 
 .main-nav {
@@ -380,8 +384,8 @@ em {
     right: 0;
     bottom: 0;
     background:
-        radial-gradient(circle at 20% 50%, rgba(255, 107, 53, 0.2) 0%, transparent 50%),
-        radial-gradient(circle at 80% 80%, rgba(0, 200, 150, 0.2) 0%, transparent 50%);
+        radial-gradient(circle at 20% 50%, rgba(229, 112, 13, 0.15) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(0, 168, 163, 0.15) 0%, transparent 50%);
     pointer-events: none;
 }
 
@@ -482,7 +486,7 @@ em {
 }
 
 /* ==========================================
-  CARDS & CONTENT BLOCKS
+   CARDS & CONTENT BLOCKS
    ========================================== */
 
 .card {
@@ -549,26 +553,28 @@ em {
 }
 
 /* ==========================================
-   FOOTER
+   FOOTER - IMPROVED DESIGN
    ========================================== */
 
 .site-footer {
     background: var(--color-dark);
     color: var(--color-gray-300);
-    padding: var(--space-16) 0 var(--space-8);
+    padding: var(--space-20) 0 var(--space-8);
+    border-top: 4px solid var(--color-primary);
 }
 
 .footer-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: 2fr 1fr 1fr 1fr;
     gap: var(--space-12);
-    margin-bottom: var(--space-12);
+    margin-bottom: var(--space-16);
 }
 
 .footer-section h4 {
     color: var(--color-white);
-    margin-bottom: var(--space-4);
+    margin-bottom: var(--space-6);
     font-size: var(--text-lg);
+    font-weight: 700;
 }
 
 .footer-section ul {
@@ -582,19 +588,90 @@ em {
 .footer-section a {
     color: var(--color-gray-400);
     transition: color var(--transition-fast);
+    font-size: var(--text-sm);
 }
 
 .footer-section a:hover {
-    color: var(--color-white);
+    color: var(--color-primary-light);
     text-decoration: none;
+}
+
+.footer-brand {
+    max-width: 350px;
+}
+
+.footer-brand p {
+    font-size: var(--text-sm);
+    line-height: 1.65;
+    color: var(--color-gray-400);
+    margin-top: var(--space-4);
+}
+
+.footer-social {
+    display: flex;
+    gap: var(--space-4);
+    margin-top: var(--space-6);
+}
+
+.footer-social a {
+    width: 40px;
+    height: 40px;
+    background: var(--color-gray-800);
+    border-radius: var(--radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-gray-400);
+    transition: all var(--transition-fast);
+}
+
+.footer-social a:hover {
+    background: var(--color-primary);
+    color: var(--color-white);
+    transform: translateY(-2px);
 }
 
 .footer-bottom {
     border-top: 1px solid var(--color-gray-800);
     padding-top: var(--space-8);
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-size: var(--text-sm);
     color: var(--color-gray-500);
+}
+
+.footer-bottom-links {
+    display: flex;
+    gap: var(--space-6);
+    list-style: none;
+}
+
+.footer-bottom-links a {
+    color: var(--color-gray-500);
+    font-size: var(--text-sm);
+}
+
+.footer-bottom-links a:hover {
+    color: var(--color-primary-light);
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: var(--space-8);
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: var(--space-4);
+        text-align: center;
+    }
+
+    .footer-bottom-links {
+        flex-direction: column;
+        gap: var(--space-3);
+    }
 }
 
 /* ==========================================
@@ -659,7 +736,6 @@ em {
     top: 0;
 }
 
-/* Focus styles */
 *:focus-visible {
     outline: 2px solid var(--color-primary);
     outline-offset: 2px;
@@ -713,7 +789,6 @@ em {
     animation: fadeInUp 0.6s ease-out;
 }
 
-/* Smooth scroll offset for sticky header */
 html {
     scroll-padding-top: 80px;
 }
