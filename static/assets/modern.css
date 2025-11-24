@@ -522,6 +522,88 @@ em {
 }
 
 /* ==========================================
+   FEATURE ROWS (Alternating Layout)
+   ========================================== */
+
+.feature-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-12);
+    align-items: center;
+    margin-bottom: var(--space-16);
+}
+
+.feature-row:last-child {
+    margin-bottom: 0;
+}
+
+.feature-row.reverse {
+    direction: rtl;
+    /* Simple way to reverse grid order */
+}
+
+.feature-row.reverse>* {
+    direction: ltr;
+    /* Reset direction for content */
+}
+
+.feature-text h3 {
+    font-size: var(--text-3xl);
+    margin-bottom: var(--space-4);
+    color: var(--color-primary-dark);
+}
+
+.feature-text p {
+    font-size: var(--text-lg);
+    color: var(--color-gray-700);
+}
+
+.feature-img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-xl);
+    transition: transform var(--transition-base);
+}
+
+.feature-img:hover {
+    transform: scale(1.02);
+}
+
+@media (max-width: 768px) {
+
+    .feature-row,
+    .feature-row.reverse {
+        grid-template-columns: 1fr;
+        direction: ltr;
+        gap: var(--space-8);
+        text-align: center;
+    }
+
+    .feature-text p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.rounded {
+    border-radius: var(--radius-xl);
+}
+
+.shadow-lg {
+    box-shadow: var(--shadow-lg);
+}
+
+.py-12 {
+    padding-top: var(--space-12);
+    padding-bottom: var(--space-12);
+}
+
+.mb-6 {
+    margin-bottom: var(--space-6);
+}
+
+/* ==========================================
    BUTTONS
    ========================================== */
 
